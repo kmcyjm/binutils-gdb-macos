@@ -1,0 +1,2441 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/hack/binutils-2.38'
+cd . && autogen Makefile.def
+ 
+/bin/sh: autogen: command not found
+make: *** [Makefile.in] Error 127
+
+cd . && autoconf
+ 
+CONFIG_SHELL="/bin/sh" /bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --disable-unit-tests --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-apple-darwin21.4.0
+ 
+checking host system type...  
+x86_64-apple-darwin21.4.0
+ 
+checking target system type...  
+x86_64-apple-darwin21.4.0
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+checking whether ln works...  
+yes
+ 
+checking whether ln -s works...  
+yes
+ 
+checking for a sed that does not truncate output...  
+/usr/bin/sed
+ 
+checking for gawk...  
+no
+ 
+checking for mawk...  
+no
+checking for nawk...  
+no
+checking for awk...  
+awk
+ 
+checking for gcc... gcc
+ 
+checking whether the C compiler works...  
+yes
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+checking for gcc option to accept ISO C99...  
+none needed
+checking for g++...  
+g++
+ 
+checking whether we are using the GNU C++ compiler...  
+yes
+ 
+checking whether g++ accepts -g...  
+yes
+ 
+checking whether g++ accepts -static-libstdc++ -static-libgcc...  
+no
+ 
+checking for gnatbind... no
+checking for gnatmake...  
+no
+checking whether compiler driver understands Ada...  
+no
+checking how to compare bootstrapped objects...  
+cmp --ignore-initial=16 $$f1 $$f2
+checking for objdir...  
+.libs
+ 
+checking for isl 0.15 or later...  
+no
+required isl version is 0.15 or later
+ 
+*** This configuration is not supported in the following subdirectories:
+
+     ld gas gprof
+    (Any other directories should still work fine.)
+
+rm: conftest.dSYM: is a directory
+
+checking for default BUILD_CONFIG... 
+checking for --enable-vtable-verify...  
+no
+ 
+checking for bison...  
+bison -y
+ 
+checking for bison...  
+bison
+ 
+checking for gm4...  
+gm4
+ 
+checking for flex...  
+flex
+ 
+checking for flex...  
+flex
+ 
+checking for makeinfo...  
+makeinfo
+ 
+checking for expect...  
+expect
+checking for runtest...  
+no
+checking for ar... ar
+checking for as... as
+checking for dlltool...  
+no
+checking for ld... (cached) /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+ 
+checking for lipo... lipo
+ 
+checking for nm...  
+nm
+ 
+checking for ranlib...  
+ranlib
+ 
+checking for strip... strip
+checking for windres... no
+checking for windmc... no
+checking for objcopy... no
+checking for objdump... objdump
+checking for readelf...  
+no
+ 
+checking for -plugin option...  
+rm: conftest.dSYM: is a directory
+
+no
+ 
+checking for cc... cc
+ 
+checking for c++...  
+c++
+ 
+checking for gcc...  
+gcc
+checking for gfortran...  
+no
+checking for gccgo... no
+ 
+checking for ar...  
+ar
+ 
+checking for as...  
+as
+checking for dlltool... no
+ 
+checking for ld... ld
+checking for lipo... lipo
+checking for nm... nm
+checking for objcopy... no
+checking for objdump... objdump
+checking for ranlib... ranlib
+ 
+checking for readelf... no
+checking for strip... strip
+checking for windres... no
+checking for windmc... no
+checking where to find the target ar... just compiled
+checking where to find the target as...  
+host tool
+checking where to find the target cc...  
+host tool
+checking where to find the target c++...  
+host tool
+ 
+checking where to find the target c++ for libstdc++...  
+host tool
+ 
+checking where to find the target dlltool...  
+just compiled
+checking where to find the target gcc...  
+host tool
+checking where to find the target gfortran...  
+host tool
+checking where to find the target gccgo...  
+host tool
+ 
+checking where to find the target ld...  
+host tool
+checking where to find the target lipo...  
+host tool
+checking where to find the target nm... just compiled
+checking where to find the target objcopy...  
+just compiled
+checking where to find the target objdump...  
+just compiled
+checking where to find the target ranlib... just compiled
+checking where to find the target readelf... just compiled
+ 
+checking where to find the target strip... just compiled
+checking where to find the target windres... just compiled
+checking where to find the target windmc... just compiled
+checking whether to enable maintainer-specific portions of Makefiles...  
+no
+ 
+configure: creating ./config.status
+ 
+make: Failed to remake makefile `Makefile'.
+
+: /Applications/Xcode.app/Contents/Developer/usr/bin/make; :
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	  /Applications/Xcode.app/Contents/Developer/usr/bin/make "DESTDIR=" "RPATH_ENVVAR=DYLD_LIBRARY_PATH" "TARGET_SUBDIR=x86_64-apple-darwin21.4.0" "bindir=/usr/local/bin" "datadir=/usr/local/share" "exec_prefix=/usr/local" "includedir=/usr/local/include" "datarootdir=/usr/local/share" "docdir=/usr/local/share/doc/" "infodir=/usr/local/share/info" "pdfdir=/usr/local/share/doc/" "htmldir=/usr/local/share/doc/" "libdir=/usr/local/lib" "libexecdir=/usr/local/libexec" "lispdir=" "localstatedir=/usr/local/var" "mandir=/usr/local/share/man" "oldincludedir=/usr/include" "prefix=/usr/local" "sbindir=/usr/local/sbin" "sharedstatedir=/usr/local/com" "sysconfdir=/usr/local/etc" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" "build_tooldir=/usr/local/x86_64-apple-darwin21.4.0" "target_alias=x86_64-apple-darwin21.4.0" "AWK=awk" "BISON=bison" "CC_FOR_BUILD=gcc" "CFLAGS_FOR_BUILD=-g -O2" "CXX_FOR_BUILD=g++" "EXPECT=expect" "FLEX=flex" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS_FOR_BUILD=" "LEX=flex" "M4=gm4" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "RUNTEST=runtest" "RUNTESTFLAGS=" "SED=/usr/bin/sed" "SHELL=/bin/sh" "YACC=bison -y" "`echo 'ADAFLAGS=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "ADA_CFLAGS=" "AR_FLAGS=rc" "`echo 'BOOT_ADAFLAGS=-gnatpg' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "BOOT_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac`" "BOOT_LDFLAGS= `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;`" "CFLAGS=-g -O2  " "CXXFLAGS=-g -O2  " "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCXXFLAGS=-g -O2   -fno-implicit-templates" "STAGE1_CHECKING=--enable-checking=yes,types" "STAGE1_LANGUAGES=,c," "GNATBIND=no" "GNATMAKE=no" "GDC=@GDC@" "GDCFLAGS=-g -O2  " "AR_FOR_TARGET=$r/./binutils/ar" "AS_FOR_TARGET=as" "CC_FOR_TARGET= gcc" "CFLAGS_FOR_TARGET=-g -O2" "CPPFLAGS_FOR_TARGET=" "CXXFLAGS_FOR_TARGET=-g -O2" "DLLTOOL_FOR_TARGET=$r/./binutils/dlltool" "DSYMUTIL_FOR_TARGET=@DSYMUTIL_FOR_TARGET@" "FLAGS_FOR_TARGET=" "GFORTRAN_FOR_TARGET= " "GOC_FOR_TARGET= " "GOCFLAGS_FOR_TARGET=-O2 -g" "GDC_FOR_TARGET= @GDC_FOR_TARGET@" "GDCFLAGS_FOR_TARGET=-O2 -g" "LD_FOR_TARGET=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "LIPO_FOR_TARGET=lipo" "LDFLAGS_FOR_TARGET=" "LIBCFLAGS_FOR_TARGET=-g -O2" "LIBCXXFLAGS_FOR_TARGET=-g -O2 -fno-implicit-templates" "NM_FOR_TARGET=$r/./binutils/nm-new" "OBJDUMP_FOR_TARGET=$r/./binutils/objdump" "OBJCOPY_FOR_TARGET=$r/./binutils/objcopy" "RANLIB_FOR_TARGET=$r/./binutils/ranlib" "READELF_FOR_TARGET=$r/./binutils/readelf" "STRIP_FOR_TARGET=$r/./binutils/strip-new" "WINDRES_FOR_TARGET=$r/./binutils/windres" "WINDMC_FOR_TARGET=$r/./binutils/windmc" "BUILD_CONFIG=" "`echo 'LANGUAGES=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "LEAN=false" "STAGE1_CFLAGS=-g `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac`" "STAGE1_CXXFLAGS=-g -O2  " "STAGE1_GENERATOR_CFLAGS=" "STAGE1_TFLAGS= -fno-checking" "STAGE2_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` -fno-checking `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac`" "STAGE2_CXXFLAGS=-g -O2  " "STAGE2_GENERATOR_CFLAGS=" "STAGE2_TFLAGS= -fno-checking" "STAGE3_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` -fchecking=1 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac`" "STAGE3_CXXFLAGS=-g -O2  " "STAGE3_GENERATOR_CFLAGS=" "STAGE3_TFLAGS= -fchecking=1" "STAGE4_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac`" "STAGE4_CXXFLAGS=-g -O2  " "STAGE4_GENERATOR_CFLAGS=" "STAGE4_TFLAGS=" "STAGEprofile_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` -fno-checking `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac` -fprofile-generate" "STAGEprofile_CXXFLAGS=-g -O2  " "STAGEprofile_GENERATOR_CFLAGS=" "STAGEprofile_TFLAGS= -fno-checking" "STAGEtrain_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac`" "STAGEtrain_CXXFLAGS=-g -O2  " "STAGEtrain_GENERATOR_CFLAGS=" "STAGEtrain_TFLAGS=" "STAGEfeedback_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac` -fprofile-use -fprofile-reproducible=parallel-runs" "STAGEfeedback_CXXFLAGS=-g -O2  " "STAGEfeedback_GENERATOR_CFLAGS=" "STAGEfeedback_TFLAGS=" "STAGEautoprofile_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` -fno-checking `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac` -g" "STAGEautoprofile_CXXFLAGS=-g -O2  " "STAGEautoprofile_GENERATOR_CFLAGS=" "STAGEautoprofile_TFLAGS= -fno-checking" "STAGEautofeedback_CFLAGS=-g -O2 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null && echo -mdynamic-no-pic ;; esac` -fchecking=1 `case x86_64-apple-darwin21.4.0 in i?86-*-darwin* | powerpc-*-darwin*) gcc -S -xc /dev/null -o /dev/null -mno-dynamic-no-pic 2>/dev/null || echo -mdynamic-no-pic ;; esac`" "STAGEautofeedback_CXXFLAGS=-g -O2  " "STAGEautofeedback_GENERATOR_CFLAGS=" "STAGEautofeedback_TFLAGS= -fchecking=1" "CXX_FOR_TARGET= g++" "TFLAGS=" "CONFIG_SHELL=/bin/sh" "MAKEINFO=makeinfo --split-size=5000000"  \
+		PGO_BUILD_CFLAGS="" PGO_BUILD_LTO_CFLAGS="" all-host all-target \
+	&& :
+ 
+make[1]: Entering directory `/Users/hack/binutils-2.38'
+cd . && autogen Makefile.def
+ 
+/bin/sh: autogen: command not found
+
+make[1]: *** [Makefile.in] Error 127
+
+cd . && autoconf
+ 
+CONFIG_SHELL="/bin/sh" /bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --disable-unit-tests --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-apple-darwin21.4.0
+ 
+checking host system type... x86_64-apple-darwin21.4.0
+checking target system type...  
+x86_64-apple-darwin21.4.0
+ 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln works...  
+yes
+checking whether ln -s works...  
+yes
+checking for a sed that does not truncate output...  
+/usr/bin/sed
+ 
+checking for gawk... awk
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking for g++... g++
+ 
+checking whether we are using the GNU C++ compiler...  
+yes
+checking whether g++ accepts -g...  
+yes
+ 
+checking whether g++ accepts -static-libstdc++ -static-libgcc...  
+no
+ 
+checking for gnatbind...  
+no
+ 
+checking for gnatmake...  
+no
+ 
+checking whether compiler driver understands Ada...  
+no
+checking how to compare bootstrapped objects...  
+cmp --ignore-initial=16 $$f1 $$f2
+ 
+checking for objdir...  
+.libs
+ 
+checking for isl 0.15 or later...  
+no
+ 
+required isl version is 0.15 or later
+ 
+*** This configuration is not supported in the following subdirectories:
+     ld gas gprof
+    (Any other directories should still work fine.)
+
+rm: conftest.dSYM: is a directory
+
+checking for default BUILD_CONFIG... 
+checking for --enable-vtable-verify... no
+ 
+checking for bison...  
+bison -y
+ 
+checking for bison...  
+bison
+ 
+checking for gm4...  
+gm4
+ 
+checking for flex...  
+flex
+ 
+checking for flex...  
+flex
+ 
+checking for makeinfo...  
+makeinfo --split-size=5000000
+ 
+checking for expect...  
+expect
+ 
+checking for runtest...  
+runtest
+ 
+checking for ar...  
+ar
+ 
+checking for as...  
+as
+ 
+checking for dlltool...  
+no
+ 
+checking for ld...  
+(cached) /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+ 
+checking for lipo...  
+lipo
+ 
+checking for nm...  
+nm
+ 
+checking for ranlib...  
+ranlib
+ 
+checking for strip...  
+strip
+ 
+checking for windres...  
+no
+ 
+checking for windmc...  
+no
+ 
+checking for objcopy...  
+no
+ 
+checking for objdump...  
+objdump
+ 
+checking for readelf...  
+no
+ 
+checking for -plugin option...  
+rm: conftest.dSYM: is a directory
+
+no
+ 
+checking for cc... (cached) gcc
+checking for gcc... (cached) gcc
+checking for c++... (cached) g++
+checking for g++... (cached) g++
+checking for cxx... (cached) g++
+checking for gxx... (cached) g++
+ 
+checking for x86_64-apple-darwin21.4.0-gcc...  
+no
+checking for gcc...  
+gcc
+ 
+checking for x86_64-apple-darwin21.4.0-gfortran... no
+checking for gfortran... no
+ 
+checking for x86_64-apple-darwin21.4.0-gccgo...  
+no
+ 
+checking for gccgo...  
+no
+ 
+checking for ar... (cached) /Users/hack/binutils-2.38/./binutils/ar
+ 
+checking for as... (cached)  
+as
+ 
+checking for dlltool... (cached) /Users/hack/binutils-2.38/./binutils/dlltool
+ 
+checking for ld... (cached) /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+ 
+checking for lipo... (cached) lipo
+ 
+checking for nm... (cached)  
+/Users/hack/binutils-2.38/./binutils/nm-new
+ 
+checking for objcopy... (cached) /Users/hack/binutils-2.38/./binutils/objcopy
+ 
+checking for objdump... (cached) /Users/hack/binutils-2.38/./binutils/objdump
+checking for ranlib... (cached) /Users/hack/binutils-2.38/./binutils/ranlib
+checking for readelf... (cached) /Users/hack/binutils-2.38/./binutils/readelf
+ 
+checking for strip... (cached) /Users/hack/binutils-2.38/./binutils/strip-new
+ 
+checking for windres... (cached) /Users/hack/binutils-2.38/./binutils/windres
+checking for windmc... (cached) /Users/hack/binutils-2.38/./binutils/windmc
+ 
+checking where to find the target ar... just compiled
+checking where to find the target as...  
+host tool
+checking where to find the target cc...  
+host tool
+ 
+checking where to find the target c++...  
+host tool
+ 
+checking where to find the target c++ for libstdc++...  
+host tool
+ 
+checking where to find the target dlltool... just compiled
+checking where to find the target gcc...  
+host tool
+checking where to find the target gfortran...  
+host tool
+ 
+checking where to find the target gccgo...  
+host tool
+ 
+checking where to find the target ld...  
+pre-installed in /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ 
+checking where to find the target lipo...  
+host tool
+ 
+checking where to find the target nm...  
+just compiled
+ 
+checking where to find the target objcopy...  
+just compiled
+ 
+checking where to find the target objdump...  
+just compiled
+ 
+checking where to find the target ranlib...  
+just compiled
+ 
+checking where to find the target readelf...  
+just compiled
+ 
+checking where to find the target strip...  
+just compiled
+ 
+checking where to find the target windres...  
+just compiled
+ 
+checking where to find the target windmc...  
+just compiled
+ 
+checking whether to enable maintainer-specific portions of Makefiles...  
+no
+ 
+configure: creating ./config.status
+ 
+make[1]: Failed to remake makefile `Makefile'.
+
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	test ! -f ./intl/Makefile || exit 0; \
+	/bin/sh ./mkinstalldirs ./intl; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	echo Configuring in ./intl; \
+	cd "./intl" || exit 1; \
+	case . in \
+	  /* | [A-Za-z]:[\\/]*) topdir=. ;; \
+	  *) topdir=`echo ./intl/ | \
+		sed -e 's,\./,,g' -e 's,[^/]*/,../,g' `. ;; \
+	esac; \
+	module_srcdir=intl; \
+	/bin/sh \
+	  $s/$module_srcdir/configure \
+	  --srcdir=${topdir}/$module_srcdir \
+	  --cache-file=./config.cache  '--disable-unit-tests' --program-transform-name='s,y,y,' --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 \
+	  --target=x86_64-apple-darwin21.4.0  \
+	  || exit 1
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	test ! -f ./libiberty/Makefile || exit 0; \
+	/bin/sh ./mkinstalldirs ./libiberty; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	echo Configuring in ./libiberty; \
+	cd "./libiberty" || exit 1; \
+	case . in \
+	  /* | [A-Za-z]:[\\/]*) topdir=. ;; \
+	  *) topdir=`echo ./libiberty/ | \
+		sed -e 's,\./,,g' -e 's,[^/]*/,../,g' `. ;; \
+	esac; \
+	module_srcdir=libiberty; \
+	/bin/sh \
+	  $s/$module_srcdir/configure \
+	  --srcdir=${topdir}/$module_srcdir \
+	  --cache-file=./config.cache  '--disable-unit-tests' --program-transform-name='s,y,y,' --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 \
+	  --target=x86_64-apple-darwin21.4.0  \
+	  || exit 1
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	test ! -f ./bfd/Makefile || exit 0; \
+	/bin/sh ./mkinstalldirs ./bfd; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	echo Configuring in ./bfd; \
+	cd "./bfd" || exit 1; \
+	case . in \
+	  /* | [A-Za-z]:[\\/]*) topdir=. ;; \
+	  *) topdir=`echo ./bfd/ | \
+		sed -e 's,\./,,g' -e 's,[^/]*/,../,g' `. ;; \
+	esac; \
+	module_srcdir=bfd; \
+	/bin/sh \
+	  $s/$module_srcdir/configure \
+	  --srcdir=${topdir}/$module_srcdir \
+	  --cache-file=./config.cache  '--disable-unit-tests' --program-transform-name='s,y,y,' --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 \
+ 
+	  --target=x86_64-apple-darwin21.4.0  \
+	  || exit 1
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	(cd ./libiberty && \
+	  /Applications/Xcode.app/Contents/Developer/usr/bin/make "DESTDIR=" "RPATH_ENVVAR=DYLD_LIBRARY_PATH" "TARGET_SUBDIR=x86_64-apple-darwin21.4.0" "bindir=/usr/local/bin" "datadir=/usr/local/share" "exec_prefix=/usr/local" "includedir=/usr/local/include" "datarootdir=/usr/local/share" "docdir=/usr/local/share/doc/" "infodir=/usr/local/share/info" "pdfdir=/usr/local/share/doc/" "htmldir=/usr/local/share/doc/" "libdir=/usr/local/lib" "libexecdir=/usr/local/libexec" "lispdir=" "localstatedir=/usr/local/var" "mandir=/usr/local/share/man" "oldincludedir=/usr/include" "prefix=/usr/local" "sbindir=/usr/local/sbin" "sharedstatedir=/usr/local/com" "sysconfdir=/usr/local/etc" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" "build_tooldir=/usr/local/x86_64-apple-darwin21.4.0" "target_alias=x86_64-apple-darwin21.4.0" "AWK=awk" "BISON=bison" "CC_FOR_BUILD=gcc" "CFLAGS_FOR_BUILD=-g -O2" "CXX_FOR_BUILD=g++" "EXPECT=expect" "FLEX=flex" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS_FOR_BUILD=" "LEX=flex" "M4=gm4" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "RUNTEST=runtest" "RUNTESTFLAGS=" "SED=/usr/bin/sed" "SHELL=/bin/sh" "YACC=bison -y" "`echo 'ADAFLAGS=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "ADA_CFLAGS=" "AR_FLAGS=rc" "`echo 'BOOT_ADAFLAGS=-gnatpg' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "BOOT_CFLAGS=-g -O2 " "BOOT_LDFLAGS=" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCXXFLAGS=-g -O2   -fno-implicit-templates" "STAGE1_CHECKING=--enable-checking=yes,types" "STAGE1_LANGUAGES=,c," "GNATBIND=no" "GNATMAKE=no" "GDC=@GDC@" "GDCFLAGS=-g -O2  " "AR_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ar" "AS_FOR_TARGET=as" "CC_FOR_TARGET=gcc" "CFLAGS_FOR_TARGET=-g -O2" "CPPFLAGS_FOR_TARGET=" "CXXFLAGS_FOR_TARGET=-g -O2" "DLLTOOL_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/dlltool" "DSYMUTIL_FOR_TARGET=@DSYMUTIL_FOR_TARGET@" "FLAGS_FOR_TARGET=" "GFORTRAN_FOR_TARGET=" "GOC_FOR_TARGET=" "GOCFLAGS_FOR_TARGET=-O2 -g" "GDC_FOR_TARGET=@GDC_FOR_TARGET@" "GDCFLAGS_FOR_TARGET=-O2 -g" "LD_FOR_TARGET=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "LIPO_FOR_TARGET=lipo" "LDFLAGS_FOR_TARGET=" "LIBCFLAGS_FOR_TARGET=-g -O2" "LIBCXXFLAGS_FOR_TARGET=-g -O2 -fno-implicit-templates" "NM_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/nm-new" "OBJDUMP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objdump" "OBJCOPY_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objcopy" "RANLIB_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ranlib" "READELF_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/readelf" "STRIP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/strip-new" "WINDRES_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windres" "WINDMC_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windmc" "BUILD_CONFIG=" "`echo 'LANGUAGES=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "LEAN=false" "STAGE1_CFLAGS=-g " "STAGE1_CXXFLAGS=-g -O2  " "STAGE1_GENERATOR_CFLAGS=" "STAGE1_TFLAGS=-fno-checking" "STAGE2_CFLAGS=-g -O2  -fno-checking " "STAGE2_CXXFLAGS=-g -O2  " "STAGE2_GENERATOR_CFLAGS=" "STAGE2_TFLAGS=-fno-checking" "STAGE3_CFLAGS=-g -O2  -fchecking=1 " "STAGE3_CXXFLAGS=-g -O2  " "STAGE3_GENERATOR_CFLAGS=" "STAGE3_TFLAGS=-fchecking=1" "STAGE4_CFLAGS=-g -O2  " "STAGE4_CXXFLAGS=-g -O2  " "STAGE4_GENERATOR_CFLAGS=" "STAGE4_TFLAGS=" "STAGEprofile_CFLAGS=-g -O2  -fno-checking  -fprofile-generate" "STAGEprofile_CXXFLAGS=-g -O2  " "STAGEprofile_GENERATOR_CFLAGS=" "STAGEprofile_TFLAGS=-fno-checking" "STAGEtrain_CFLAGS=-g -O2  " "STAGEtrain_CXXFLAGS=-g -O2  " "STAGEtrain_GENERATOR_CFLAGS=" "STAGEtrain_TFLAGS=" "STAGEfeedback_CFLAGS=-g -O2   -fprofile-use -fprofile-reproducible=parallel-runs" "STAGEfeedback_CXXFLAGS=-g -O2  " "STAGEfeedback_GENERATOR_CFLAGS=" "STAGEfeedback_TFLAGS=" "STAGEautoprofile_CFLAGS=-g -O2  -fno-checking  -g" "STAGEautoprofile_CXXFLAGS=-g -O2  " "STAGEautoprofile_GENERATOR_CFLAGS=" "STAGEautoprofile_TFLAGS=-fno-checking" "STAGEautofeedback_CFLAGS=-g -O2  -fchecking=1 " "STAGEautofeedback_CXXFLAGS=-g -O2  " "STAGEautofeedback_GENERATOR_CFLAGS=" "STAGEautofeedback_TFLAGS=-fchecking=1" "CXX_FOR_TARGET=g++" "TFLAGS=" "CONFIG_SHELL=/bin/sh" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000"  'AR=ar ' 'AS=as' 'CC=gcc' 'CXX=g++' 'DLLTOOL=dlltool' 'DSYMUTIL=@DSYMUTIL@' 'GFORTRAN=' 'GOC=' 'GDC=@GDC@' 'LD=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld' 'LIPO=lipo' 'NM=nm' 'OBJDUMP=objdump' 'OTOOL=@OTOOL@' 'RANLIB=ranlib ' 'READELF=readelf' 'STRIP=strip' 'WINDRES=windres' 'WINDMC=windmc' 'CREATE_GCOV=create_gcov' LDFLAGS="${LDFLAGS}" HOST_LIBS="${HOST_LIBS}"  \
+		all)
+ 
+make[2]: Entering directory `/Users/hack/binutils-2.38/libiberty'
+cd . && autoconf
+ 
+/bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh /Users/hack/binutils-2.38/libiberty/configure --srcdir=.././libiberty --cache-file=./config.cache --disable-unit-tests --program-transform-name=s,y,y, --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 --target=x86_64-apple-darwin21.4.0 build_alias=x86_64-apple-darwin21.4.0 host_alias=x86_64-apple-darwin21.4.0 target_alias=x86_64-apple-darwin21.4.0 CC=gcc CFLAGS=-g -O2     LDFLAGS=   --no-create --no-recursion
+ 
+configure: loading cache ./config.cache
+ 
+checking whether to enable maintainer-specific portions of Makefiles... no
+ 
+checking for makeinfo...  
+(cached)  
+makeinfo --split-size=5000000
+ 
+checking for perl... (cached) perl
+ 
+checking build system type... (cached)  
+x86_64-apple-darwin21.4.0
+checking host system type... (cached) x86_64-apple-darwin21.4.0
+ 
+checking for x86_64-apple-darwin21.4.0-ar... (cached) ar 
+checking for x86_64-apple-darwin21.4.0-ranlib... (cached) ranlib 
+checking for -plugin option...  
+checking for x86_64-apple-darwin21.4.0-ar...  
+(cached) ar 
+ 
+no
+ 
+checking whether to install libiberty headers and static library...  
+no
+configure: target_header_dir = 
+checking for x86_64-apple-darwin21.4.0-gcc... (cached) gcc
+ 
+checking whether the C compiler works...  
+yes
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+(cached)  
+o
+checking whether we are using the GNU C compiler...  
+(cached)  
+yes
+ 
+checking whether gcc accepts -g...  
+(cached)  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+(cached)  
+none needed
+ 
+checking how to run the C preprocessor...  
+(cached)  
+gcc -E
+ 
+checking for grep that handles long lines and -e... (cached) /usr/bin/grep
+checking for egrep... (cached)  
+/usr/bin/grep -E
+checking for ANSI C header files... (cached)  
+yes
+ 
+checking for sys/types.h... (cached) yes
+ 
+checking for sys/stat.h...  
+(cached) yes
+ 
+checking for stdlib.h... (cached) yes
+ 
+checking for string.h... (cached) yes
+ 
+checking for memory.h... (cached) yes
+ 
+checking for strings.h... (cached) yes
+ 
+checking for inttypes.h... (cached) yes
+ 
+checking for stdint.h... (cached) yes
+ 
+checking for unistd.h... (cached) yes
+ 
+checking for minix/config.h... (cached) no
+checking whether it is safe to define __EXTENSIONS__... (cached) yes
+ 
+checking for special C compiler options needed for large files... (cached) no
+checking for _FILE_OFFSET_BITS value needed for large files... (cached) no
+ 
+checking whether gcc supports -W... (cached) yes
+ 
+checking whether gcc supports -Wall... (cached) yes
+ 
+checking whether gcc supports -Wwrite-strings... (cached) yes
+ 
+checking whether gcc supports -Wc++-compat... (cached)  
+yes
+ 
+checking whether gcc supports -Wstrict-prototypes... (cached)  
+yes
+ 
+checking whether gcc supports -Wshadow=local...  
+(cached) yes
+ 
+checking whether gcc supports -pedantic ... (cached) yes
+checking whether gcc and cc understand -c and -o together...  
+(cached) yes
+ 
+checking for an ANSI C-conforming const... (cached) yes
+checking for inline... (cached) inline
+checking whether byte ordering is bigendian... (cached) no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for CET support... no
+ 
+checking for sys/file.h... (cached) yes
+ 
+checking for sys/param.h... (cached) yes
+ 
+checking for limits.h... (cached) yes
+ 
+checking for stdlib.h... (cached) yes
+ 
+checking for malloc.h...  
+(cached) no
+ 
+checking for string.h...  
+(cached) yes
+ 
+checking for unistd.h...  
+(cached) yes
+ 
+checking for strings.h...  
+(cached) yes
+ 
+checking for sys/time.h...  
+(cached) yes
+ 
+checking for time.h...  
+(cached) yes
+ 
+checking for sys/resource.h...  
+(cached) yes
+ 
+checking for sys/stat.h...  
+(cached) yes
+ 
+checking for sys/mman.h... (cached) yes
+ 
+checking for fcntl.h... (cached) yes
+ 
+checking for alloca.h...  
+(cached) yes
+ 
+checking for sys/pstat.h... (cached) no
+ 
+checking for sys/sysmp.h...  
+(cached) no
+ 
+checking for sys/sysinfo.h... (cached)  
+no
+ 
+checking for machine/hal_sysinfo.h... (cached) no
+ 
+checking for sys/table.h... (cached) no
+ 
+checking for sys/sysctl.h... (cached) yes
+ 
+checking for sys/systemcfg.h... (cached) no
+ 
+checking for stdint.h... (cached) yes
+ 
+checking for stdio_ext.h... (cached)  
+no
+ 
+checking for process.h... (cached) no
+ 
+checking for sys/prctl.h... (cached) no
+checking for sys/wait.h that is POSIX.1 compatible... (cached) yes
+ 
+checking whether time.h and sys/time.h may both be included... (cached) yes
+ 
+checking whether errno must be declared...  
+(cached) no
+ 
+checking size of int...  
+(cached)  
+4
+ 
+checking size of long... (cached) 8
+ 
+checking size of size_t... (cached) 8
+ 
+checking for long long...  
+(cached) yes
+ 
+checking size of long long... (cached) 8
+ 
+checking for a 64-bit type... (cached) uint64_t
+ 
+checking for intptr_t...  
+(cached) yes
+ 
+checking for uintptr_t... (cached) yes
+ 
+checking for ssize_t...  
+(cached)  
+yes
+ 
+checking for pid_t... (cached)  
+yes
+ 
+checking for library containing strerror... (cached)  
+none required
+ 
+checking for asprintf...  
+(cached) yes
+ 
+checking for atexit... (cached) yes
+ 
+checking for basename... (cached) yes
+ 
+checking for bcmp... (cached) yes
+ 
+checking for bcopy... (cached) yes
+ 
+checking for bsearch...  
+(cached) yes
+ 
+checking for bzero... (cached) yes
+ 
+checking for calloc...  
+(cached) yes
+ 
+checking for clock... (cached) yes
+ 
+checking for ffs...  
+(cached) yes
+ 
+checking for getcwd...  
+(cached) yes
+ 
+checking for getpagesize...  
+(cached) yes
+ 
+checking for gettimeofday...  
+(cached) yes
+ 
+checking for index... (cached) yes
+ 
+checking for insque...  
+(cached) yes
+ 
+checking for memchr... (cached) yes
+ 
+checking for memcmp...  
+(cached) yes
+ 
+checking for memcpy...  
+(cached) yes
+ 
+checking for memmem...  
+(cached)  
+yes
+ 
+checking for memmove...  
+(cached) yes
+ 
+checking for mempcpy...  
+(cached) no
+ 
+checking for memset...  
+(cached) yes
+ 
+checking for mkstemps...  
+(cached) yes
+ 
+checking for putenv...  
+(cached)  
+yes
+ 
+checking for random...  
+(cached) yes
+ 
+checking for rename...  
+(cached) yes
+ 
+checking for rindex... (cached) yes
+ 
+checking for setenv... (cached) yes
+ 
+checking for snprintf... (cached) yes
+ 
+checking for sigsetmask...  
+(cached) yes
+ 
+checking for stpcpy... (cached) yes
+ 
+checking for stpncpy... (cached) yes
+ 
+checking for strcasecmp...  
+(cached) yes
+ 
+checking for strchr...  
+(cached) yes
+ 
+checking for strdup... (cached) yes
+ 
+checking for strncasecmp... (cached) yes
+ 
+checking for strndup... (cached) yes
+ 
+checking for strnlen...  
+(cached) yes
+ 
+checking for strrchr...  
+(cached) yes
+ 
+checking for strstr... (cached) yes
+ 
+checking for strtod...  
+(cached) yes
+ 
+checking for strtol...  
+(cached) yes
+ 
+checking for strtoul... (cached) yes
+ 
+checking for strtoll... (cached) yes
+ 
+checking for strtoull...  
+(cached) yes
+ 
+checking for strverscmp... (cached) no
+ 
+checking for tmpnam... (cached) yes
+ 
+checking for vasprintf...  
+(cached) yes
+ 
+checking for vfprintf... (cached) yes
+ 
+checking for vprintf...  
+(cached) yes
+ 
+checking for vsnprintf... (cached) yes
+ 
+checking for vsprintf... (cached) yes
+ 
+checking for waitpid... (cached) yes
+ 
+checking for setproctitle...  
+(cached) no
+ 
+checking whether alloca needs Cray hooks...  
+(cached) no
+ 
+checking stack direction for C alloca... (cached) -1
+ 
+checking for vfork.h...  
+(cached) no
+ 
+checking for fork...  
+(cached) yes
+ 
+checking for vfork...  
+(cached) yes
+ 
+checking for working fork...  
+(cached) yes
+checking for working vfork... (cached)  
+yes
+ 
+checking for _doprnt...  
+(cached)  
+no
+ 
+checking for sys_errlist...  
+(cached)  
+yes
+ 
+checking for sys_nerr...  
+(cached)  
+yes
+ 
+checking for sys_siglist...  
+(cached)  
+yes
+ 
+checking for external symbol _system_configuration...  
+no
+ 
+checking for __fsetlocking... (cached) no
+ 
+checking for canonicalize_file_name... (cached) no
+ 
+checking for dup3...  
+(cached) no
+ 
+checking for getrlimit...  
+(cached) yes
+ 
+checking for getrusage...  
+(cached) yes
+ 
+checking for getsysinfo...  
+(cached) no
+ 
+checking for gettimeofday...  
+(cached) yes
+ 
+checking for on_exit...  
+(cached)  
+no
+ 
+checking for pipe2...  
+(cached) no
+ 
+checking for psignal...  
+(cached) yes
+ 
+checking for pstat_getdynamic...  
+(cached) no
+ 
+checking for pstat_getstatic...  
+(cached)  
+no
+ 
+checking for realpath...  
+(cached)  
+yes
+ 
+checking for setrlimit... (cached) yes
+ 
+checking for spawnve... (cached) no
+ 
+checking for spawnvpe... (cached) no
+ 
+checking for strerror... (cached) yes
+ 
+checking for strsignal... (cached) yes
+ 
+checking for sysconf...  
+(cached) yes
+ 
+checking for sysctl... (cached) yes
+ 
+checking for sysmp... (cached)  
+no
+ 
+checking for table... (cached) no
+ 
+checking for times... (cached) yes
+ 
+checking for wait3... (cached) yes
+ 
+checking for wait4... (cached) yes
+ 
+checking whether basename is declared... (cached) no
+ 
+checking whether ffs is declared... (cached) yes
+ 
+checking whether asprintf is declared... (cached) yes
+ 
+checking whether vasprintf is declared...  
+(cached) yes
+ 
+checking whether snprintf is declared...  
+(cached) yes
+ 
+checking whether vsnprintf is declared...  
+(cached) yes
+ 
+checking whether calloc is declared... (cached) yes
+ 
+checking whether getenv is declared...  
+(cached) yes
+ 
+checking whether getopt is declared...  
+(cached) yes
+ 
+checking whether malloc is declared...  
+(cached)  
+yes
+ 
+checking whether realloc is declared...  
+(cached) yes
+ 
+checking whether strtol is declared...  
+(cached) yes
+ 
+checking whether strtoul is declared...  
+(cached) yes
+ 
+checking whether strtoll is declared...  
+(cached)  
+yes
+ 
+checking whether strtoull is declared...  
+(cached) yes
+ 
+checking whether strverscmp is declared...  
+(cached)  
+no
+ 
+checking whether strnlen is declared... (cached) yes
+ 
+checking whether canonicalize_file_name must be declared... (cached) yes
+ 
+checking for stdlib.h... (cached) yes
+ 
+checking for unistd.h... (cached)  
+yes
+ 
+checking for sys/param.h... (cached) yes
+ 
+checking for getpagesize...  
+(cached) yes
+ 
+checking for working mmap...  
+(cached) yes
+ 
+checking for working strncmp... (cached) no
+ 
+configure: creating ./config.status
+ 
+CONFIG_FILES=Makefile CONFIG_HEADERS= /bin/sh ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: executing default commands
+ 
+make[2]: Leaving directory `/Users/hack/binutils-2.38/libiberty'
+ 
+make[2]: Entering directory `/Users/hack/binutils-2.38/libiberty'
+if [ x"" != x ] && [ ! -d pic ]; then \
+	  mkdir pic; \
+	else true; fi
+touch stamp-picdir
+if [ x"" != x ] && [ ! -d noasan ]; then \
+	  mkdir noasan; \
+	else true; fi
+touch stamp-noasandir
+CONFIG_FILES= CONFIG_HEADERS=config.h:./config.in /bin/sh ./config.status
+true
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./regex.c -o pic/regex.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./regex.c -o noasan/regex.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./regex.c -o regex.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./cplus-dem.c -o pic/cplus-dem.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./cplus-dem.c -o noasan/cplus-dem.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./cplus-dem.c -o cplus-dem.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./cp-demangle.c -o pic/cp-demangle.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./cp-demangle.c -o noasan/cp-demangle.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./cp-demangle.c -o cp-demangle.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./md5.c -o pic/md5.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./md5.c -o noasan/md5.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./md5.c -o md5.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./sha1.c -o pic/sha1.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./sha1.c -o noasan/sha1.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./sha1.c -o sha1.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./alloca.c -o pic/alloca.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./alloca.c -o noasan/alloca.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./alloca.c -o alloca.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./argv.c -o pic/argv.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./argv.c -o noasan/argv.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./argv.c -o argv.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./bsearch_r.c -o pic/bsearch_r.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./bsearch_r.c -o noasan/bsearch_r.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./bsearch_r.c -o bsearch_r.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./choose-temp.c -o pic/choose-temp.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./choose-temp.c -o noasan/choose-temp.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./choose-temp.c -o choose-temp.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./concat.c -o pic/concat.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./concat.c -o noasan/concat.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./concat.c -o concat.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./cp-demint.c -o pic/cp-demint.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./cp-demint.c -o noasan/cp-demint.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./cp-demint.c -o cp-demint.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./crc32.c -o pic/crc32.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./crc32.c -o noasan/crc32.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./crc32.c -o crc32.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./d-demangle.c -o pic/d-demangle.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./d-demangle.c -o noasan/d-demangle.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./d-demangle.c -o d-demangle.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./dwarfnames.c -o pic/dwarfnames.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./dwarfnames.c -o noasan/dwarfnames.o; \
+	else true; fi
+ 
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./dwarfnames.c -o dwarfnames.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./dyn-string.c -o pic/dyn-string.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./dyn-string.c -o noasan/dyn-string.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./dyn-string.c -o dyn-string.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./fdmatch.c -o pic/fdmatch.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./fdmatch.c -o noasan/fdmatch.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./fdmatch.c -o fdmatch.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./fibheap.c -o pic/fibheap.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./fibheap.c -o noasan/fibheap.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./fibheap.c -o fibheap.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./filedescriptor.c -o pic/filedescriptor.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./filedescriptor.c -o noasan/filedescriptor.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./filedescriptor.c -o filedescriptor.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./filename_cmp.c -o pic/filename_cmp.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./filename_cmp.c -o noasan/filename_cmp.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./filename_cmp.c -o filename_cmp.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./floatformat.c -o pic/floatformat.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./floatformat.c -o noasan/floatformat.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./floatformat.c -o floatformat.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./fnmatch.c -o pic/fnmatch.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./fnmatch.c -o noasan/fnmatch.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./fnmatch.c -o fnmatch.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./fopen_unlocked.c -o pic/fopen_unlocked.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./fopen_unlocked.c -o noasan/fopen_unlocked.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./fopen_unlocked.c -o fopen_unlocked.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./getopt.c -o pic/getopt.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./getopt.c -o noasan/getopt.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./getopt.c -o getopt.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./getopt1.c -o pic/getopt1.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./getopt1.c -o noasan/getopt1.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./getopt1.c -o getopt1.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./getpwd.c -o pic/getpwd.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./getpwd.c -o noasan/getpwd.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./getpwd.c -o getpwd.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./getruntime.c -o pic/getruntime.o; \
+ 
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./getruntime.c -o noasan/getruntime.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./getruntime.c -o getruntime.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./hashtab.c -o pic/hashtab.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./hashtab.c -o noasan/hashtab.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./hashtab.c -o hashtab.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./hex.c -o pic/hex.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./hex.c -o noasan/hex.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./hex.c -o hex.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./lbasename.c -o pic/lbasename.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./lbasename.c -o noasan/lbasename.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./lbasename.c -o lbasename.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./lrealpath.c -o pic/lrealpath.o; \
+	else true; fi
+if [ x"" != x ]; then \
+ 
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./lrealpath.c -o noasan/lrealpath.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./lrealpath.c -o lrealpath.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./make-relative-prefix.c -o pic/make-relative-prefix.o; \
+	else true; fi
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./make-relative-prefix.c -o noasan/make-relative-prefix.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./make-relative-prefix.c -o make-relative-prefix.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./make-temp-file.c -o pic/make-temp-file.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./make-temp-file.c -o noasan/make-temp-file.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./make-temp-file.c -o make-temp-file.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./objalloc.c -o pic/objalloc.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./objalloc.c -o noasan/objalloc.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./objalloc.c -o objalloc.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./obstack.c -o pic/obstack.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./obstack.c -o noasan/obstack.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./obstack.c -o obstack.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./partition.c -o pic/partition.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./partition.c -o noasan/partition.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./partition.c -o partition.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./pexecute.c -o pic/pexecute.o; \
+	else true; fi
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./pexecute.c -o noasan/pexecute.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./pexecute.c -o pexecute.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./physmem.c -o pic/physmem.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./physmem.c -o noasan/physmem.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./physmem.c -o physmem.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./pex-common.c -o pic/pex-common.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./pex-common.c -o noasan/pex-common.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./pex-common.c -o pex-common.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./pex-one.c -o pic/pex-one.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./pex-one.c -o noasan/pex-one.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./pex-one.c -o pex-one.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./pex-unix.c -o pic/pex-unix.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./pex-unix.c -o noasan/pex-unix.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./pex-unix.c -o pex-unix.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./vprintf-support.c -o pic/vprintf-support.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./vprintf-support.c -o noasan/vprintf-support.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./vprintf-support.c -o vprintf-support.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./rust-demangle.c -o pic/rust-demangle.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./rust-demangle.c -o noasan/rust-demangle.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./rust-demangle.c -o rust-demangle.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./safe-ctype.c -o pic/safe-ctype.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./safe-ctype.c -o noasan/safe-ctype.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./safe-ctype.c -o safe-ctype.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./simple-object.c -o pic/simple-object.o; \
+	else true; fi
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./simple-object.c -o noasan/simple-object.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./simple-object.c -o simple-object.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./simple-object-coff.c -o pic/simple-object-coff.o; \
+ 
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./simple-object-coff.c -o noasan/simple-object-coff.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./simple-object-coff.c -o simple-object-coff.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./simple-object-elf.c -o pic/simple-object-elf.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./simple-object-elf.c -o noasan/simple-object-elf.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./simple-object-elf.c -o simple-object-elf.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./simple-object-mach-o.c -o pic/simple-object-mach-o.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./simple-object-mach-o.c -o noasan/simple-object-mach-o.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./simple-object-mach-o.c -o simple-object-mach-o.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./simple-object-xcoff.c -o pic/simple-object-xcoff.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./simple-object-xcoff.c -o noasan/simple-object-xcoff.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./simple-object-xcoff.c -o simple-object-xcoff.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./sort.c -o pic/sort.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./sort.c -o noasan/sort.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./sort.c -o sort.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./spaces.c -o pic/spaces.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./spaces.c -o noasan/spaces.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./spaces.c -o spaces.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./splay-tree.c -o pic/splay-tree.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./splay-tree.c -o noasan/splay-tree.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./splay-tree.c -o splay-tree.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./stack-limit.c -o pic/stack-limit.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./stack-limit.c -o noasan/stack-limit.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./stack-limit.c -o stack-limit.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./strerror.c -o pic/strerror.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./strerror.c -o noasan/strerror.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./strerror.c -o strerror.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./strsignal.c -o pic/strsignal.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./strsignal.c -o noasan/strsignal.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./strsignal.c -o strsignal.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./timeval-utils.c -o pic/timeval-utils.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./timeval-utils.c -o noasan/timeval-utils.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./timeval-utils.c -o timeval-utils.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./unlink-if-ordinary.c -o pic/unlink-if-ordinary.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./unlink-if-ordinary.c -o noasan/unlink-if-ordinary.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./unlink-if-ordinary.c -o unlink-if-ordinary.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xasprintf.c -o pic/xasprintf.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xasprintf.c -o noasan/xasprintf.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xasprintf.c -o xasprintf.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xatexit.c -o pic/xatexit.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xatexit.c -o noasan/xatexit.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xatexit.c -o xatexit.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xexit.c -o pic/xexit.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xexit.c -o noasan/xexit.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xexit.c -o xexit.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xmalloc.c -o pic/xmalloc.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xmalloc.c -o noasan/xmalloc.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xmalloc.c -o xmalloc.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xmemdup.c -o pic/xmemdup.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xmemdup.c -o noasan/xmemdup.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xmemdup.c -o xmemdup.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xstrdup.c -o pic/xstrdup.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xstrdup.c -o noasan/xstrdup.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xstrdup.c -o xstrdup.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xstrerror.c -o pic/xstrerror.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xstrerror.c -o noasan/xstrerror.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xstrerror.c -o xstrerror.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xstrndup.c -o pic/xstrndup.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xstrndup.c -o noasan/xstrndup.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xstrndup.c -o xstrndup.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./xvasprintf.c -o pic/xvasprintf.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./xvasprintf.c -o noasan/xvasprintf.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./xvasprintf.c -o xvasprintf.o
+if [ x"" != x ]; then \
+ 
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./mempcpy.c -o pic/mempcpy.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./mempcpy.c -o noasan/mempcpy.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./mempcpy.c -o mempcpy.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./strverscmp.c -o pic/strverscmp.o; \
+	else true; fi
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./strverscmp.c -o noasan/strverscmp.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./strverscmp.c -o strverscmp.o
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./setproctitle.c -o pic/setproctitle.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./setproctitle.c -o noasan/setproctitle.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./setproctitle.c -o setproctitle.o
+ 
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE   ./strncmp.c -o pic/strncmp.o; \
+	else true; fi
+if [ x"" != x ]; then \
+	  gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE    ./strncmp.c -o noasan/strncmp.o; \
+	else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2      -I. -I./../include  -W -Wall -Wwrite-strings -Wc++-compat -Wstrict-prototypes -Wshadow=local -pedantic  -D_GNU_SOURCE  ./strncmp.c -o strncmp.o
+rm -f ./libiberty.a pic/./libiberty.a noasan/./libiberty.a
+ar  rc ./libiberty.a \
+	  ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./sha1.o ./alloca.o ./argv.o ./bsearch_r.o ./choose-temp.o ./concat.o ./cp-demint.o ./crc32.o ./d-demangle.o ./dwarfnames.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./filedescriptor.o ./filename_cmp.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./vprintf-support.o ./rust-demangle.o ./safe-ctype.o ./simple-object.o ./simple-object-coff.o ./simple-object-elf.o ./simple-object-mach-o.o ./simple-object-xcoff.o ./sort.o ./spaces.o ./splay-tree.o ./stack-limit.o ./strerror.o ./strsignal.o ./timeval-utils.o ./unlink-if-ordinary.o ./xasprintf.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o ./xvasprintf.o  ./mempcpy.o ./strverscmp.o ./setproctitle.o ./strncmp.o
+ranlib  ./libiberty.a
+if [ x"" != x ]; then \
+	  cd pic; \
+	  ar  rc ./libiberty.a \
+	    ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./sha1.o ./alloca.o ./argv.o ./bsearch_r.o ./choose-temp.o ./concat.o ./cp-demint.o ./crc32.o ./d-demangle.o ./dwarfnames.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./filedescriptor.o ./filename_cmp.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./vprintf-support.o ./rust-demangle.o ./safe-ctype.o ./simple-object.o ./simple-object-coff.o ./simple-object-elf.o ./simple-object-mach-o.o ./simple-object-xcoff.o ./sort.o ./spaces.o ./splay-tree.o ./stack-limit.o ./strerror.o ./strsignal.o ./timeval-utils.o ./unlink-if-ordinary.o ./xasprintf.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o ./xvasprintf.o  ./mempcpy.o ./strverscmp.o ./setproctitle.o ./strncmp.o; \
+	  ranlib  ./libiberty.a; \
+	  cd ..; \
+	else true; fi; \
+	if [ x"" != x ]; then \
+	  cd noasan; \
+	  ar  rc ./libiberty.a \
+	    ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./sha1.o ./alloca.o ./argv.o ./bsearch_r.o ./choose-temp.o ./concat.o ./cp-demint.o ./crc32.o ./d-demangle.o ./dwarfnames.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./filedescriptor.o ./filename_cmp.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./vprintf-support.o ./rust-demangle.o ./safe-ctype.o ./simple-object.o ./simple-object-coff.o ./simple-object-elf.o ./simple-object-mach-o.o ./simple-object-xcoff.o ./sort.o ./spaces.o ./splay-tree.o ./stack-limit.o ./strerror.o ./strsignal.o ./timeval-utils.o ./unlink-if-ordinary.o ./xasprintf.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o ./xvasprintf.o  ./mempcpy.o ./strverscmp.o ./setproctitle.o ./strncmp.o; \
+	  ranlib  ./libiberty.a; \
+	  cd ..; \
+	else true; fi
+echo ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./sha1.o ./alloca.o ./argv.o ./bsearch_r.o ./choose-temp.o ./concat.o ./cp-demint.o ./crc32.o ./d-demangle.o ./dwarfnames.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./filedescriptor.o ./filename_cmp.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./vprintf-support.o ./rust-demangle.o ./safe-ctype.o ./simple-object.o ./simple-object-coff.o ./simple-object-elf.o ./simple-object-mach-o.o ./simple-object-xcoff.o ./sort.o ./spaces.o ./splay-tree.o ./stack-limit.o ./strerror.o ./strsignal.o ./timeval-utils.o ./unlink-if-ordinary.o ./xasprintf.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o ./xvasprintf.o > required-list
+subdirs='testsuite'; \
+	target=`echo all-subdir | sed -e 's/-subdir//'`; \
+	for dir in $subdirs ; do \
+	  cd $dir && /Applications/Xcode.app/Contents/Developer/usr/bin/make "AR=ar " "AR_FLAGS=rc" "CC=gcc" "CFLAGS=-g -O2    " "CPPFLAGS=" "DESTDIR=" "EXTRA_OFILES=" "HDEFINES=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "LDFLAGS=" "LOADLIBES=" "RANLIB=ranlib " "SHELL=/bin/sh" "prefix=/usr/local" "exec_prefix=/usr/local" "libdir=/usr/local/lib" "libsubdir=" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" $target; \
+	done
+ 
+make[3]: Entering directory `/Users/hack/binutils-2.38/libiberty/testsuite'
+CONFIG_FILES=testsuite/Makefile CONFIG_HEADERS= \
+	  cd .. && /bin/sh ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating testsuite/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing default commands
+ 
+make[3]: Leaving directory `/Users/hack/binutils-2.38/libiberty/testsuite'
+ 
+make[3]: Entering directory `/Users/hack/binutils-2.38/libiberty/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/Users/hack/binutils-2.38/libiberty/testsuite'
+ 
+: /Applications/Xcode.app/Contents/Developer/usr/bin/make ; true "AR=ar " "AR_FLAGS=rc" "CC=gcc" "CFLAGS=-g -O2    " "CPPFLAGS=" "DESTDIR=" "EXTRA_OFILES=" "HDEFINES=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "LDFLAGS=" "LOADLIBES=" "RANLIB=ranlib " "SHELL=/bin/sh" "prefix=/usr/local" "exec_prefix=/usr/local" "libdir=/usr/local/lib" "libsubdir=" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" multi-do DO=all
+ 
+make[2]: Leaving directory `/Users/hack/binutils-2.38/libiberty'
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	(cd ./intl && \
+	  /Applications/Xcode.app/Contents/Developer/usr/bin/make "DESTDIR=" "RPATH_ENVVAR=DYLD_LIBRARY_PATH" "TARGET_SUBDIR=x86_64-apple-darwin21.4.0" "bindir=/usr/local/bin" "datadir=/usr/local/share" "exec_prefix=/usr/local" "includedir=/usr/local/include" "datarootdir=/usr/local/share" "docdir=/usr/local/share/doc/" "infodir=/usr/local/share/info" "pdfdir=/usr/local/share/doc/" "htmldir=/usr/local/share/doc/" "libdir=/usr/local/lib" "libexecdir=/usr/local/libexec" "lispdir=" "localstatedir=/usr/local/var" "mandir=/usr/local/share/man" "oldincludedir=/usr/include" "prefix=/usr/local" "sbindir=/usr/local/sbin" "sharedstatedir=/usr/local/com" "sysconfdir=/usr/local/etc" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" "build_tooldir=/usr/local/x86_64-apple-darwin21.4.0" "target_alias=x86_64-apple-darwin21.4.0" "AWK=awk" "BISON=bison" "CC_FOR_BUILD=gcc" "CFLAGS_FOR_BUILD=-g -O2" "CXX_FOR_BUILD=g++" "EXPECT=expect" "FLEX=flex" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS_FOR_BUILD=" "LEX=flex" "M4=gm4" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "RUNTEST=runtest" "RUNTESTFLAGS=" "SED=/usr/bin/sed" "SHELL=/bin/sh" "YACC=bison -y" "`echo 'ADAFLAGS=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "ADA_CFLAGS=" "AR_FLAGS=rc" "`echo 'BOOT_ADAFLAGS=-gnatpg' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "BOOT_CFLAGS=-g -O2 " "BOOT_LDFLAGS=" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCXXFLAGS=-g -O2   -fno-implicit-templates" "STAGE1_CHECKING=--enable-checking=yes,types" "STAGE1_LANGUAGES=,c," "GNATBIND=no" "GNATMAKE=no" "GDC=@GDC@" "GDCFLAGS=-g -O2  " "AR_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ar" "AS_FOR_TARGET=as" "CC_FOR_TARGET=gcc" "CFLAGS_FOR_TARGET=-g -O2" "CPPFLAGS_FOR_TARGET=" "CXXFLAGS_FOR_TARGET=-g -O2" "DLLTOOL_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/dlltool" "DSYMUTIL_FOR_TARGET=@DSYMUTIL_FOR_TARGET@" "FLAGS_FOR_TARGET=" "GFORTRAN_FOR_TARGET=" "GOC_FOR_TARGET=" "GOCFLAGS_FOR_TARGET=-O2 -g" "GDC_FOR_TARGET=@GDC_FOR_TARGET@" "GDCFLAGS_FOR_TARGET=-O2 -g" "LD_FOR_TARGET=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "LIPO_FOR_TARGET=lipo" "LDFLAGS_FOR_TARGET=" "LIBCFLAGS_FOR_TARGET=-g -O2" "LIBCXXFLAGS_FOR_TARGET=-g -O2 -fno-implicit-templates" "NM_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/nm-new" "OBJDUMP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objdump" "OBJCOPY_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objcopy" "RANLIB_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ranlib" "READELF_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/readelf" "STRIP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/strip-new" "WINDRES_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windres" "WINDMC_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windmc" "BUILD_CONFIG=" "`echo 'LANGUAGES=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "LEAN=false" "STAGE1_CFLAGS=-g " "STAGE1_CXXFLAGS=-g -O2  " "STAGE1_GENERATOR_CFLAGS=" "STAGE1_TFLAGS=-fno-checking" "STAGE2_CFLAGS=-g -O2  -fno-checking " "STAGE2_CXXFLAGS=-g -O2  " "STAGE2_GENERATOR_CFLAGS=" "STAGE2_TFLAGS=-fno-checking" "STAGE3_CFLAGS=-g -O2  -fchecking=1 " "STAGE3_CXXFLAGS=-g -O2  " "STAGE3_GENERATOR_CFLAGS=" "STAGE3_TFLAGS=-fchecking=1" "STAGE4_CFLAGS=-g -O2  " "STAGE4_CXXFLAGS=-g -O2  " "STAGE4_GENERATOR_CFLAGS=" "STAGE4_TFLAGS=" "STAGEprofile_CFLAGS=-g -O2  -fno-checking  -fprofile-generate" "STAGEprofile_CXXFLAGS=-g -O2  " "STAGEprofile_GENERATOR_CFLAGS=" "STAGEprofile_TFLAGS=-fno-checking" "STAGEtrain_CFLAGS=-g -O2  " "STAGEtrain_CXXFLAGS=-g -O2  " "STAGEtrain_GENERATOR_CFLAGS=" "STAGEtrain_TFLAGS=" "STAGEfeedback_CFLAGS=-g -O2   -fprofile-use -fprofile-reproducible=parallel-runs" "STAGEfeedback_CXXFLAGS=-g -O2  " "STAGEfeedback_GENERATOR_CFLAGS=" "STAGEfeedback_TFLAGS=" "STAGEautoprofile_CFLAGS=-g -O2  -fno-checking  -g" "STAGEautoprofile_CXXFLAGS=-g -O2  " "STAGEautoprofile_GENERATOR_CFLAGS=" "STAGEautoprofile_TFLAGS=-fno-checking" "STAGEautofeedback_CFLAGS=-g -O2  -fchecking=1 " "STAGEautofeedback_CXXFLAGS=-g -O2  " "STAGEautofeedback_GENERATOR_CFLAGS=" "STAGEautofeedback_TFLAGS=-fchecking=1" "CXX_FOR_TARGET=g++" "TFLAGS=" "CONFIG_SHELL=/bin/sh" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000"  'AR=ar ' 'AS=as' 'CC=gcc' 'CXX=g++' 'DLLTOOL=dlltool' 'DSYMUTIL=@DSYMUTIL@' 'GFORTRAN=' 'GOC=' 'GDC=@GDC@' 'LD=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld' 'LIPO=lipo' 'NM=nm' 'OBJDUMP=objdump' 'OTOOL=@OTOOL@' 'RANLIB=ranlib ' 'READELF=readelf' 'STRIP=strip' 'WINDRES=windres' 'WINDMC=windmc' 'CREATE_GCOV=create_gcov' LDFLAGS="${LDFLAGS}" HOST_LIBS="${HOST_LIBS}"  \
+		all)
+ 
+make[2]: Entering directory `/Users/hack/binutils-2.38/intl'
+cd . && autoconf
+ 
+/bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh /Users/hack/binutils-2.38/intl/configure --srcdir=.././intl --cache-file=./config.cache --disable-unit-tests --program-transform-name=s,y,y, --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 --target=x86_64-apple-darwin21.4.0 build_alias=x86_64-apple-darwin21.4.0 host_alias=x86_64-apple-darwin21.4.0 target_alias=x86_64-apple-darwin21.4.0 CC=gcc CFLAGS=-g -O2     LDFLAGS=   --no-create --no-recursion
+ 
+configure: loading cache ./config.cache
+ 
+checking for x86_64-apple-darwin21.4.0-gcc...  
+(cached) gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files... (cached) o
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89...  
+(cached) none needed
+ 
+checking how to run the C preprocessor...  
+(cached)  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+(cached) /usr/bin/grep
+ 
+checking for egrep...  
+(cached) /usr/bin/grep -E
+checking for ANSI C header files... (cached) yes
+ 
+checking for sys/types.h... (cached) yes
+ 
+checking for sys/stat.h... (cached) yes
+ 
+checking for stdlib.h...  
+(cached) yes
+ 
+checking for string.h... (cached) yes
+ 
+checking for memory.h...  
+(cached) yes
+ 
+checking for strings.h... (cached) yes
+ 
+checking for inttypes.h... (cached) yes
+ 
+checking for stdint.h... (cached) yes
+ 
+checking for unistd.h... (cached) yes
+ 
+checking for minix/config.h...  
+(cached) no
+ 
+checking whether it is safe to define __EXTENSIONS__...  
+(cached) yes
+ 
+checking whether /Applications/Xcode.app/Contents/Developer/usr/bin/make sets $(MAKE)...  
+(cached)  
+yes
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether NLS is requested...  
+yes
+ 
+checking for msgfmt...  
+(cached)  
+no
+ 
+checking for gmsgfmt...  
+(cached)  
+:
+ 
+checking for xgettext...  
+(cached)  
+no
+ 
+checking for msgmerge...  
+(cached) no
+ 
+checking build system type... (cached)  
+x86_64-apple-darwin21.4.0
+checking host system type...  
+(cached) x86_64-apple-darwin21.4.0
+ 
+checking for x86_64-apple-darwin21.4.0-ranlib...  
+(cached) ranlib 
+ 
+checking for library containing strerror...  
+(cached)  
+none required
+ 
+checking for an ANSI C-conforming const...  
+(cached)  
+yes
+ 
+checking for inline...  
+(cached) inline
+ 
+checking for off_t...  
+(cached) yes
+ 
+checking for size_t...  
+(cached) yes
+ 
+checking for working alloca.h...  
+(cached)  
+yes
+ 
+checking for alloca...  
+(cached)  
+yes
+ 
+checking for stdlib.h...  
+(cached) yes
+ 
+checking for unistd.h...  
+(cached) yes
+ 
+checking for sys/param.h...  
+(cached) yes
+ 
+checking for getpagesize...  
+(cached) yes
+ 
+checking for working mmap...  
+(cached)  
+yes
+ 
+checking whether we are using the GNU C Library 2.1 or newer...  
+(cached) no
+ 
+checking whether integer division by zero raises SIGFPE...  
+(cached)  
+no
+ 
+checking for inttypes.h... (cached) yes
+ 
+checking for stdint.h...  
+(cached) yes
+ 
+checking for unsigned long long...  
+(cached) yes
+ 
+checking for inttypes.h... (cached) yes
+ 
+checking whether the inttypes.h PRIxNN macros are broken...  
+(cached) no
+ 
+checking for ld used by GCC...  
+(cached)  
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+ 
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... (cached)  
+no
+ 
+checking for shared library run path origin... (cached)  
+done
+ 
+checking for argz.h... (cached) no
+ 
+checking for limits.h... (cached) yes
+ 
+checking for locale.h...  
+(cached) yes
+ 
+checking for nl_types.h...  
+(cached)  
+yes
+ 
+checking for malloc.h...  
+(cached) no
+ 
+checking for stddef.h...  
+(cached) yes
+ 
+checking for stdlib.h...  
+(cached) yes
+ 
+checking for string.h...  
+(cached) yes
+ 
+checking for unistd.h...  
+(cached) yes
+ 
+checking for sys/param.h... (cached) yes
+ 
+checking for feof_unlocked...  
+(cached) yes
+ 
+checking for fgets_unlocked...  
+(cached) no
+ 
+checking for getc_unlocked...  
+(cached) yes
+ 
+checking for getcwd... (cached) yes
+ 
+checking for getegid... (cached) yes
+ 
+checking for geteuid...  
+(cached) yes
+ 
+checking for getgid...  
+(cached) yes
+ 
+checking for getuid... (cached) yes
+ 
+checking for mempcpy... (cached) no
+ 
+checking for munmap...  
+(cached) yes
+ 
+checking for putenv... (cached) yes
+ 
+checking for setenv... (cached) yes
+ 
+checking for setlocale... (cached) yes
+ 
+checking for stpcpy... (cached) yes
+ 
+checking for strcasecmp... (cached) yes
+ 
+checking for strdup... (cached) yes
+ 
+checking for strtoul... (cached) yes
+ 
+checking for tsearch... (cached) yes
+ 
+checking for __argz_count...  
+(cached) no
+ 
+checking for __argz_stringify... (cached) no
+ 
+checking for __argz_next... (cached) no
+ 
+checking for __fsetlocking... (cached) no
+checking for iconv... (cached) yes
+ 
+checking how to link with libiconv... -liconv
+ 
+checking for iconv declaration... (cached)  
+
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+ 
+checking for nl_langinfo and CODESET...  
+(cached) yes
+ 
+checking for LC_MESSAGES... (cached) yes
+ 
+checking for bison... (cached) bison
+checking version of bison...  
+2.3, ok
+ 
+checking whether NLS is requested...  
+yes
+ 
+checking whether included gettext is requested... no
+checking for GNU gettext in libc... (cached) no
+ 
+checking for GNU gettext in libintl... (cached) no
+ 
+checking whether to use NLS... yes
+checking where the gettext function comes from... included intl directory
+ 
+checking for aclocal...  
+no
+checking for autoconf... (cached) autoconf
+checking for autoheader... (cached) autoheader
+ 
+checking bison 3 or later...  
+2.3, old
+ 
+configure: creating ./config.status
+ 
+/bin/sh ./config.status Makefile
+ 
+config.status: creating Makefile
+ 
+make[2]: Leaving directory `/Users/hack/binutils-2.38/intl'
+ 
+make[2]: Entering directory `/Users/hack/binutils-2.38/intl'
+cd . && autoheader
+rm -f stamp-h1
+rm -f stamp-h1
+ 
+/bin/sh ./config.status config.h
+test -f config.h || (rm -f stamp-h1 && /Applications/Xcode.app/Contents/Developer/usr/bin/make stamp-h1)
+ 
+cp ./libgnuintl.h libintl.h
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. bindtextdom.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. dcgettext.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. dgettext.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. gettext.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. finddomain.c
+ 
+echo '/* #define USE_BISON3 */' > plural-config.h
+bison -y --name-prefix=__gettext --output plural.c plural.y
+rm -f plural.h
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. loadmsgcat.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H -DLOCALE_ALIAS_PATH="\"/usr/local/share/locale\"" -I. -I. localealias.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. textdomain.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. l10nflist.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. explodename.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H -DLOCALEDIR="\"/usr/local/share/locale\"" -I. -I. dcigettext.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. dcngettext.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. dngettext.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. ngettext.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. plural.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. plural-exp.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H -DLIBDIR="\"/usr/local/lib\"" -I. -I. localcharset.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H -DINSTALLDIR="\"/usr/local/lib\"" -I. -I. relocatable.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. localename.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. log.c
+ 
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. osdep.c
+gcc -c  -g -O2     -fno-common -DHAVE_CONFIG_H  -I. -I. intl-compat.c
+rm -f libintl.a
+ar  cru libintl.a bindtextdom.o dcgettext.o dgettext.o gettext.o finddomain.o loadmsgcat.o localealias.o textdomain.o l10nflist.o explodename.o dcigettext.o dcngettext.o dngettext.o ngettext.o plural.o plural-exp.o localcharset.o relocatable.o localename.o log.o osdep.o intl-compat.o
+ranlib  libintl.a
+ 
+/bin/sh ./config.status config.intl
+make[2]: Leaving directory `/Users/hack/binutils-2.38/intl'
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	test ! -f ./zlib/Makefile || exit 0; \
+	/bin/sh ./mkinstalldirs ./zlib; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	echo Configuring in ./zlib; \
+	cd "./zlib" || exit 1; \
+	case . in \
+	  /* | [A-Za-z]:[\\/]*) topdir=. ;; \
+	  *) topdir=`echo ./zlib/ | \
+		sed -e 's,\./,,g' -e 's,[^/]*/,../,g' `. ;; \
+	esac; \
+	module_srcdir=zlib; \
+ 
+	/bin/sh \
+	  $s/$module_srcdir/configure \
+	  --srcdir=${topdir}/$module_srcdir \
+	  --cache-file=./config.cache  '--disable-unit-tests' --program-transform-name='s,y,y,' --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 \
+	  --target=x86_64-apple-darwin21.4.0  \
+	  || exit 1
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	(cd ./zlib && \
+	  /Applications/Xcode.app/Contents/Developer/usr/bin/make "DESTDIR=" "RPATH_ENVVAR=DYLD_LIBRARY_PATH" "TARGET_SUBDIR=x86_64-apple-darwin21.4.0" "bindir=/usr/local/bin" "datadir=/usr/local/share" "exec_prefix=/usr/local" "includedir=/usr/local/include" "datarootdir=/usr/local/share" "docdir=/usr/local/share/doc/" "infodir=/usr/local/share/info" "pdfdir=/usr/local/share/doc/" "htmldir=/usr/local/share/doc/" "libdir=/usr/local/lib" "libexecdir=/usr/local/libexec" "lispdir=" "localstatedir=/usr/local/var" "mandir=/usr/local/share/man" "oldincludedir=/usr/include" "prefix=/usr/local" "sbindir=/usr/local/sbin" "sharedstatedir=/usr/local/com" "sysconfdir=/usr/local/etc" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" "build_tooldir=/usr/local/x86_64-apple-darwin21.4.0" "target_alias=x86_64-apple-darwin21.4.0" "AWK=awk" "BISON=bison" "CC_FOR_BUILD=gcc" "CFLAGS_FOR_BUILD=-g -O2" "CXX_FOR_BUILD=g++" "EXPECT=expect" "FLEX=flex" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS_FOR_BUILD=" "LEX=flex" "M4=gm4" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "RUNTEST=runtest" "RUNTESTFLAGS=" "SED=/usr/bin/sed" "SHELL=/bin/sh" "YACC=bison -y" "`echo 'ADAFLAGS=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "ADA_CFLAGS=" "AR_FLAGS=rc" "`echo 'BOOT_ADAFLAGS=-gnatpg' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "BOOT_CFLAGS=-g -O2 " "BOOT_LDFLAGS=" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCXXFLAGS=-g -O2   -fno-implicit-templates" "STAGE1_CHECKING=--enable-checking=yes,types" "STAGE1_LANGUAGES=,c," "GNATBIND=no" "GNATMAKE=no" "GDC=@GDC@" "GDCFLAGS=-g -O2  " "AR_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ar" "AS_FOR_TARGET=as" "CC_FOR_TARGET=gcc" "CFLAGS_FOR_TARGET=-g -O2" "CPPFLAGS_FOR_TARGET=" "CXXFLAGS_FOR_TARGET=-g -O2" "DLLTOOL_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/dlltool" "DSYMUTIL_FOR_TARGET=@DSYMUTIL_FOR_TARGET@" "FLAGS_FOR_TARGET=" "GFORTRAN_FOR_TARGET=" "GOC_FOR_TARGET=" "GOCFLAGS_FOR_TARGET=-O2 -g" "GDC_FOR_TARGET=@GDC_FOR_TARGET@" "GDCFLAGS_FOR_TARGET=-O2 -g" "LD_FOR_TARGET=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "LIPO_FOR_TARGET=lipo" "LDFLAGS_FOR_TARGET=" "LIBCFLAGS_FOR_TARGET=-g -O2" "LIBCXXFLAGS_FOR_TARGET=-g -O2 -fno-implicit-templates" "NM_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/nm-new" "OBJDUMP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objdump" "OBJCOPY_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objcopy" "RANLIB_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ranlib" "READELF_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/readelf" "STRIP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/strip-new" "WINDRES_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windres" "WINDMC_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windmc" "BUILD_CONFIG=" "`echo 'LANGUAGES=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "LEAN=false" "STAGE1_CFLAGS=-g " "STAGE1_CXXFLAGS=-g -O2  " "STAGE1_GENERATOR_CFLAGS=" "STAGE1_TFLAGS=-fno-checking" "STAGE2_CFLAGS=-g -O2  -fno-checking " "STAGE2_CXXFLAGS=-g -O2  " "STAGE2_GENERATOR_CFLAGS=" "STAGE2_TFLAGS=-fno-checking" "STAGE3_CFLAGS=-g -O2  -fchecking=1 " "STAGE3_CXXFLAGS=-g -O2  " "STAGE3_GENERATOR_CFLAGS=" "STAGE3_TFLAGS=-fchecking=1" "STAGE4_CFLAGS=-g -O2  " "STAGE4_CXXFLAGS=-g -O2  " "STAGE4_GENERATOR_CFLAGS=" "STAGE4_TFLAGS=" "STAGEprofile_CFLAGS=-g -O2  -fno-checking  -fprofile-generate" "STAGEprofile_CXXFLAGS=-g -O2  " "STAGEprofile_GENERATOR_CFLAGS=" "STAGEprofile_TFLAGS=-fno-checking" "STAGEtrain_CFLAGS=-g -O2  " "STAGEtrain_CXXFLAGS=-g -O2  " "STAGEtrain_GENERATOR_CFLAGS=" "STAGEtrain_TFLAGS=" "STAGEfeedback_CFLAGS=-g -O2   -fprofile-use -fprofile-reproducible=parallel-runs" "STAGEfeedback_CXXFLAGS=-g -O2  " "STAGEfeedback_GENERATOR_CFLAGS=" "STAGEfeedback_TFLAGS=" "STAGEautoprofile_CFLAGS=-g -O2  -fno-checking  -g" "STAGEautoprofile_CXXFLAGS=-g -O2  " "STAGEautoprofile_GENERATOR_CFLAGS=" "STAGEautoprofile_TFLAGS=-fno-checking" "STAGEautofeedback_CFLAGS=-g -O2  -fchecking=1 " "STAGEautofeedback_CXXFLAGS=-g -O2  " "STAGEautofeedback_GENERATOR_CFLAGS=" "STAGEautofeedback_TFLAGS=-fchecking=1" "CXX_FOR_TARGET=g++" "TFLAGS=" "CONFIG_SHELL=/bin/sh" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000"  'AR=ar ' 'AS=as' 'CC=gcc' 'CXX=g++' 'DLLTOOL=dlltool' 'DSYMUTIL=@DSYMUTIL@' 'GFORTRAN=' 'GOC=' 'GDC=@GDC@' 'LD=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld' 'LIPO=lipo' 'NM=nm' 'OBJDUMP=objdump' 'OTOOL=@OTOOL@' 'RANLIB=ranlib ' 'READELF=readelf' 'STRIP=strip' 'WINDRES=windres' 'WINDMC=windmc' 'CREATE_GCOV=create_gcov' LDFLAGS="${LDFLAGS}" HOST_LIBS="${HOST_LIBS}"  \
+		all)
+ 
+make[2]: Entering directory `/Users/hack/binutils-2.38/zlib'
+ 
+ cd . && /bin/sh /Users/hack/binutils-2.38/missing automake-1.15 --foreign Makefile
+ 
+/Users/hack/binutils-2.38/missing: line 81: automake-1.15: command not found
+
+WARNING: 'automake-1.15' is missing on your system.
+         You should only need it if you modified 'Makefile.am' or
+         'configure.ac' or m4 files included by 'configure.ac'.
+         The 'automake' program is part of the GNU Automake package:
+         <http://www.gnu.org/software/automake>
+         It also requires GNU Autoconf, GNU m4 and Perl in order to run:
+         <http://www.gnu.org/software/autoconf>
+         <http://www.gnu.org/software/m4/>
+         <http://www.perl.org/>
+
+make[2]: *** [Makefile.in] Error 127
+
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /Users/hack/binutils-2.38/missing autoconf
+ 
+/bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh /Users/hack/binutils-2.38/zlib/configure --srcdir=.././zlib --cache-file=./config.cache --disable-unit-tests --program-transform-name=s,y,y, --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 --target=x86_64-apple-darwin21.4.0 build_alias=x86_64-apple-darwin21.4.0 host_alias=x86_64-apple-darwin21.4.0 target_alias=x86_64-apple-darwin21.4.0 --no-create --no-recursion
+ 
+configure: loading cache ./config.cache
+ 
+checking build system type... (cached)  
+x86_64-apple-darwin21.4.0
+ 
+checking host system type...  
+(cached) x86_64-apple-darwin21.4.0
+ 
+checking target system type... (cached) x86_64-apple-darwin21.4.0
+ 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+./../install-sh -c -d
+ 
+checking for gawk... (cached)  
+awk
+ 
+checking whether /Applications/Xcode.app/Contents/Developer/usr/bin/make sets $(MAKE)...  
+(cached)  
+yes
+ 
+checking whether /Applications/Xcode.app/Contents/Developer/usr/bin/make supports nested variables...  
+(cached) yes
+ 
+checking whether /Applications/Xcode.app/Contents/Developer/usr/bin/make supports nested variables...  
+(cached) yes
+ 
+checking whether to enable maintainer-specific portions of Makefiles...  
+no
+ 
+checking for x86_64-apple-darwin21.4.0-gcc...  
+(cached) gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files... (cached) o
+checking whether we are using the GNU C compiler... (cached)  
+yes
+checking whether gcc accepts -g...  
+(cached)  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+(cached)  
+none needed
+ 
+checking whether gcc understands -c and -o together... (cached)  
+yes
+ 
+checking for style of include used by /Applications/Xcode.app/Contents/Developer/usr/bin/make...  
+GNU
+ 
+checking dependency style of gcc... (cached) gcc3
+ 
+checking how to print strings...  
+printf
+ 
+checking for a sed that does not truncate output...  
+(cached)  
+/usr/bin/sed
+ 
+checking for grep that handles long lines and -e... (cached) /usr/bin/grep
+checking for egrep... (cached) /usr/bin/grep -E
+checking for fgrep... (cached) /usr/bin/grep -F
+checking for ld used by gcc...  
+(cached)  
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+ 
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... (cached)  
+no
+ 
+checking for BSD- or MS-compatible name lister (nm)...  
+(cached)  
+/usr/bin/nm
+ 
+checking the name lister (/usr/bin/nm) interface... (cached) BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... (cached) 786432
+checking whether the shell understands some XSI constructs...  
+yes
+checking whether the shell understands "+="...  
+yes
+ 
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... (cached)  
+-r
+checking for x86_64-apple-darwin21.4.0-objdump... (cached) objdump
+ 
+checking how to recognize dependent libraries...  
+(cached)  
+pass_all
+ 
+checking for x86_64-apple-darwin21.4.0-ar... (cached)  
+ar 
+ 
+checking for x86_64-apple-darwin21.4.0-strip... strip
+checking for x86_64-apple-darwin21.4.0-ranlib... (cached) ranlib 
+checking command to parse /usr/bin/nm output from gcc object... (cached) ok
+ 
+checking for x86_64-apple-darwin21.4.0-dsymutil... (cached) @DSYMUTIL@
+checking for x86_64-apple-darwin21.4.0-nmedit... no
+checking for nmedit... (cached)  
+nmedit
+checking for x86_64-apple-darwin21.4.0-lipo... lipo
+checking for x86_64-apple-darwin21.4.0-otool... (cached)  
+@OTOOL@
+checking for x86_64-apple-darwin21.4.0-otool64...  
+no
+checking for otool64... no
+checking for -single_module linker flag... (cached) yes
+checking for -exported_symbols_list linker flag... (cached) yes
+checking for -force_load linker flag... (cached) no
+checking how to run the C preprocessor... (cached) gcc -E
+ 
+checking for ANSI C header files... (cached) yes
+ 
+checking for sys/types.h...  
+(cached) yes
+ 
+checking for sys/stat.h...  
+(cached) yes
+ 
+checking for stdlib.h... (cached) yes
+ 
+checking for string.h... (cached)  
+yes
+ 
+checking for memory.h... (cached) yes
+ 
+checking for strings.h... (cached) yes
+ 
+checking for inttypes.h... (cached) yes
+ 
+checking for stdint.h... (cached) yes
+ 
+checking for unistd.h... (cached) yes
+ 
+checking for dlfcn.h... (cached) yes
+ 
+checking for objdir... (cached) .libs
+ 
+rm: conftest.dSYM: is a directory
+
+checking if gcc supports -fno-rtti -fno-exceptions...  
+(cached) yes
+checking for gcc option to produce PIC... -fno-common -DPIC
+checking if gcc PIC flag -fno-common -DPIC works... (cached)  
+yes
+checking if gcc static flag -static works... (cached) no
+checking if gcc supports -c -o file.o... (cached) yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries...  
+yes
+checking dynamic linker characteristics...  
+darwin21.4.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible...  
+yes
+ 
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries...  
+yes
+checking whether to build static libraries...  
+yes
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for stdlib.h...  
+(cached) yes
+ 
+checking for unistd.h... (cached) yes
+ 
+checking for sys/param.h... (cached) yes
+ 
+checking for getpagesize... (cached) yes
+ 
+checking for working mmap... (cached) yes
+ 
+checking for memcpy... (cached) yes
+ 
+checking for strerror... (cached) yes
+ 
+checking for unistd.h... (cached) yes
+ 
+configure: updating cache ./config.cache
+ 
+checking that generated files are newer than configure... done
+ 
+configure: creating ./config.status
+ 
+make[2]: Failed to remake makefile `Makefile'.
+
+echo "  CC      " libz_a-adler32.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-adler32.o -MD -MP -MF .deps/libz_a-adler32.Tpo -c -o libz_a-adler32.o `test -f 'adler32.c' || echo './'`adler32.c
+mv -f .deps/libz_a-adler32.Tpo .deps/libz_a-adler32.Po
+echo "  CC      " libz_a-compress.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-compress.o -MD -MP -MF .deps/libz_a-compress.Tpo -c -o libz_a-compress.o `test -f 'compress.c' || echo './'`compress.c
+mv -f .deps/libz_a-compress.Tpo .deps/libz_a-compress.Po
+echo "  CC      " libz_a-crc32.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-crc32.o -MD -MP -MF .deps/libz_a-crc32.Tpo -c -o libz_a-crc32.o `test -f 'crc32.c' || echo './'`crc32.c
+mv -f .deps/libz_a-crc32.Tpo .deps/libz_a-crc32.Po
+echo "  CC      " libz_a-deflate.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-deflate.o -MD -MP -MF .deps/libz_a-deflate.Tpo -c -o libz_a-deflate.o `test -f 'deflate.c' || echo './'`deflate.c
+mv -f .deps/libz_a-deflate.Tpo .deps/libz_a-deflate.Po
+ 
+echo "  CC      " libz_a-gzread.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-gzread.o -MD -MP -MF .deps/libz_a-gzread.Tpo -c -o libz_a-gzread.o `test -f 'gzread.c' || echo './'`gzread.c
+mv -f .deps/libz_a-gzread.Tpo .deps/libz_a-gzread.Po
+echo "  CC      " libz_a-gzclose.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-gzclose.o -MD -MP -MF .deps/libz_a-gzclose.Tpo -c -o libz_a-gzclose.o `test -f 'gzclose.c' || echo './'`gzclose.c
+mv -f .deps/libz_a-gzclose.Tpo .deps/libz_a-gzclose.Po
+echo "  CC      " libz_a-gzwrite.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-gzwrite.o -MD -MP -MF .deps/libz_a-gzwrite.Tpo -c -o libz_a-gzwrite.o `test -f 'gzwrite.c' || echo './'`gzwrite.c
+mv -f .deps/libz_a-gzwrite.Tpo .deps/libz_a-gzwrite.Po
+echo "  CC      " libz_a-gzlib.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-gzlib.o -MD -MP -MF .deps/libz_a-gzlib.Tpo -c -o libz_a-gzlib.o `test -f 'gzlib.c' || echo './'`gzlib.c
+mv -f .deps/libz_a-gzlib.Tpo .deps/libz_a-gzlib.Po
+echo "  CC      " libz_a-infback.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-infback.o -MD -MP -MF .deps/libz_a-infback.Tpo -c -o libz_a-infback.o `test -f 'infback.c' || echo './'`infback.c
+mv -f .deps/libz_a-infback.Tpo .deps/libz_a-infback.Po
+echo "  CC      " libz_a-inffast.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-inffast.o -MD -MP -MF .deps/libz_a-inffast.Tpo -c -o libz_a-inffast.o `test -f 'inffast.c' || echo './'`inffast.c
+mv -f .deps/libz_a-inffast.Tpo .deps/libz_a-inffast.Po
+ 
+echo "  CC      " libz_a-inflate.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-inflate.o -MD -MP -MF .deps/libz_a-inflate.Tpo -c -o libz_a-inflate.o `test -f 'inflate.c' || echo './'`inflate.c
+mv -f .deps/libz_a-inflate.Tpo .deps/libz_a-inflate.Po
+echo "  CC      " libz_a-inftrees.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-inftrees.o -MD -MP -MF .deps/libz_a-inftrees.Tpo -c -o libz_a-inftrees.o `test -f 'inftrees.c' || echo './'`inftrees.c
+mv -f .deps/libz_a-inftrees.Tpo .deps/libz_a-inftrees.Po
+ 
+echo "  CC      " libz_a-trees.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-trees.o -MD -MP -MF .deps/libz_a-trees.Tpo -c -o libz_a-trees.o `test -f 'trees.c' || echo './'`trees.c
+mv -f .deps/libz_a-trees.Tpo .deps/libz_a-trees.Po
+echo "  CC      " libz_a-uncompr.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-uncompr.o -MD -MP -MF .deps/libz_a-uncompr.Tpo -c -o libz_a-uncompr.o `test -f 'uncompr.c' || echo './'`uncompr.c
+mv -f .deps/libz_a-uncompr.Tpo .deps/libz_a-uncompr.Po
+ 
+echo "  CC      " libz_a-zutil.o;gcc -DPACKAGE_NAME=\"zlib\" -DPACKAGE_TARNAME=\"zlib\" -DPACKAGE_VERSION=\"1.1.4\" -DPACKAGE_STRING=\"zlib\ 1.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"zlib\" -DVERSION=\"1.1.4\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_MEMCPY=1 -DHAVE_STRERROR=1 -DHAVE_UNISTD_H=1 -I.      -g -O2     -MT libz_a-zutil.o -MD -MP -MF .deps/libz_a-zutil.Tpo -c -o libz_a-zutil.o `test -f 'zutil.c' || echo './'`zutil.c
+mv -f .deps/libz_a-zutil.Tpo .deps/libz_a-zutil.Po
+rm -f libz.a
+echo "  AR      " libz.a;ar  cru libz.a libz_a-adler32.o libz_a-compress.o libz_a-crc32.o libz_a-deflate.o libz_a-gzread.o libz_a-gzclose.o libz_a-gzwrite.o libz_a-gzlib.o libz_a-infback.o libz_a-inffast.o libz_a-inflate.o libz_a-inftrees.o libz_a-trees.o libz_a-uncompr.o libz_a-zutil.o 
+ranlib  libz.a
+true "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "CFLAGS_FOR_BUILD=-g -O2" "CFLAGS_FOR_TARGET=-g -O2" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCFLAGS_FOR_TARGET=-g -O2" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000 " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "EXPECT=expect" "RUNTEST=runtest" "RUNTESTFLAGS=" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "prefix=/usr/local" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" "AR=ar " "AS=as" "CC=gcc" "CXX=g++" "LD=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "LIBCFLAGS=-g -O2  " "NM=nm" "PICFLAG=" "RANLIB=ranlib " "DESTDIR=" DO=all multi-do # /Applications/Xcode.app/Contents/Developer/usr/bin/make
+ 
+make[2]: Leaving directory `/Users/hack/binutils-2.38/zlib'
+ 
+make[1]: *** [all-zlib] Error 2
+
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	test ! -f ./opcodes/Makefile || exit 0; \
+	/bin/sh ./mkinstalldirs ./opcodes; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	echo Configuring in ./opcodes; \
+	cd "./opcodes" || exit 1; \
+	case . in \
+	  /* | [A-Za-z]:[\\/]*) topdir=. ;; \
+	  *) topdir=`echo ./opcodes/ | \
+		sed -e 's,\./,,g' -e 's,[^/]*/,../,g' `. ;; \
+	esac; \
+	module_srcdir=opcodes; \
+	/bin/sh \
+ 
+	  $s/$module_srcdir/configure \
+	  --srcdir=${topdir}/$module_srcdir \
+	  --cache-file=./config.cache  '--disable-unit-tests' --program-transform-name='s,y,y,' --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 \
+	  --target=x86_64-apple-darwin21.4.0  \
+	  || exit 1
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	test ! -f ./binutils/Makefile || exit 0; \
+	/bin/sh ./mkinstalldirs ./binutils; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	echo Configuring in ./binutils; \
+	cd "./binutils" || exit 1; \
+	case . in \
+ 
+	  /* | [A-Za-z]:[\\/]*) topdir=. ;; \
+	  *) topdir=`echo ./binutils/ | \
+		sed -e 's,\./,,g' -e 's,[^/]*/,../,g' `. ;; \
+	esac; \
+	module_srcdir=binutils; \
+	/bin/sh \
+	  $s/$module_srcdir/configure \
+	  --srcdir=${topdir}/$module_srcdir \
+	  --cache-file=./config.cache  '--disable-unit-tests' --program-transform-name='s,y,y,' --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 \
+	  --target=x86_64-apple-darwin21.4.0  \
+	  || exit 1
+: /Applications/Xcode.app/Contents/Developer/usr/bin/make; :
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+ 
+	test ! -f ./etc/Makefile || exit 0; \
+	/bin/sh ./mkinstalldirs ./etc; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	echo Configuring in ./etc; \
+	cd "./etc" || exit 1; \
+	case . in \
+	  /* | [A-Za-z]:[\\/]*) topdir=. ;; \
+	  *) topdir=`echo ./etc/ | \
+		sed -e 's,\./,,g' -e 's,[^/]*/,../,g' `. ;; \
+	esac; \
+	module_srcdir=etc; \
+	/bin/sh \
+	  $s/$module_srcdir/configure \
+	  --srcdir=${topdir}/$module_srcdir \
+	  --cache-file=./config.cache  '--disable-unit-tests' --program-transform-name='s,y,y,' --disable-option-checking --build=x86_64-apple-darwin21.4.0 --host=x86_64-apple-darwin21.4.0 \
+	  --target=x86_64-apple-darwin21.4.0  \
+	  || exit 1
+: /Applications/Xcode.app/Contents/Developer/usr/bin/make; :
+ 
+r=`${PWDCMD-pwd}`; export r; \
+	s=`cd .; ${PWDCMD-pwd}`; export s; \
+	FLEX="flex"; export FLEX; LEX="flex"; export LEX; BISON="bison"; export BISON; YACC="bison -y"; export YACC; M4="gm4"; export M4; SED="/usr/bin/sed"; export SED; AWK="awk"; export AWK; MAKEINFO="makeinfo --split-size=5000000"; export MAKEINFO; CC="gcc"; export CC; ADA_CFLAGS=""; export ADA_CFLAGS; CFLAGS="-g -O2    "; export CFLAGS; CONFIG_SHELL="/bin/sh"; export CONFIG_SHELL; CXX="g++"; export CXX; CXXFLAGS="-g -O2    "; export CXXFLAGS; GFORTRAN=""; export GFORTRAN; GOC=""; export GOC; GDC="@GDC@"; export GDC; AR="ar "; export AR; AS="as"; export AS; CC_FOR_BUILD="gcc"; export CC_FOR_BUILD; CPP_FOR_BUILD="@CPP_FOR_BUILD@"; export CPP_FOR_BUILD; CPPFLAGS_FOR_BUILD="@CPPFLAGS_FOR_BUILD@"; export CPPFLAGS_FOR_BUILD; CXX_FOR_BUILD="g++"; export CXX_FOR_BUILD; DLLTOOL="dlltool"; export DLLTOOL; DSYMUTIL="@DSYMUTIL@"; export DSYMUTIL; LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD; LDFLAGS=" `case x86_64-apple-darwin21.4.0 in *-*-darwin[1][1-9]*) echo -Wl,-no_pie ;; esac;` "; export LDFLAGS; NM="nm"; export NM; RANLIB="ranlib "; export RANLIB; WINDRES="windres"; export WINDRES; WINDMC="windmc"; export WINDMC; OBJCOPY=""; export OBJCOPY; OBJDUMP="objdump"; export OBJDUMP; OTOOL="@OTOOL@"; export OTOOL; READELF="readelf"; export READELF; AR_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ar"; export AR_FOR_TARGET; AS_FOR_TARGET="as"; export AS_FOR_TARGET; DSYMUTIL_FOR_TARGET="@DSYMUTIL_FOR_TARGET@"; export DSYMUTIL_FOR_TARGET; GCC_FOR_TARGET=" "; export GCC_FOR_TARGET; LD_FOR_TARGET="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"; export LD_FOR_TARGET; NM_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/nm-new"; export NM_FOR_TARGET; OBJDUMP_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objdump"; export OBJDUMP_FOR_TARGET; OBJCOPY_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/objcopy"; export OBJCOPY_FOR_TARGET; OTOOL_FOR_TARGET="@OTOOL_FOR_TARGET@"; export OTOOL_FOR_TARGET; RANLIB_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/ranlib"; export RANLIB_FOR_TARGET; READELF_FOR_TARGET="/Users/hack/binutils-2.38/./binutils/readelf"; export READELF_FOR_TARGET; TOPLEVEL_CONFIGURE_ARGUMENTS="./configure --disable-unit-tests"; export TOPLEVEL_CONFIGURE_ARGUMENTS; HOST_LIBS=""; export HOST_LIBS; GMPLIBS="-lmpc -lmpfr -lgmp"; export GMPLIBS; GMPINC=""; export GMPINC; ISLLIBS=""; export ISLLIBS; ISLINC=""; export ISLINC; LIBELFLIBS="@libelflibs@"; export LIBELFLIBS; LIBELFINC="@libelfinc@"; export LIBELFINC; XGCC_FLAGS_FOR_TARGET="  "; export XGCC_FLAGS_FOR_TARGET; DYLD_LIBRARY_PATH=`echo "$DYLD_LIBRARY_PATH" | sed 's,::*,:,g;s,^:*,,;s,:*$,,'`; export DYLD_LIBRARY_PATH;  \
+	(cd ./etc && \
+	  /Applications/Xcode.app/Contents/Developer/usr/bin/make "DESTDIR=" "RPATH_ENVVAR=DYLD_LIBRARY_PATH" "TARGET_SUBDIR=x86_64-apple-darwin21.4.0" "bindir=/usr/local/bin" "datadir=/usr/local/share" "exec_prefix=/usr/local" "includedir=/usr/local/include" "datarootdir=/usr/local/share" "docdir=/usr/local/share/doc/" "infodir=/usr/local/share/info" "pdfdir=/usr/local/share/doc/" "htmldir=/usr/local/share/doc/" "libdir=/usr/local/lib" "libexecdir=/usr/local/libexec" "lispdir=" "localstatedir=/usr/local/var" "mandir=/usr/local/share/man" "oldincludedir=/usr/include" "prefix=/usr/local" "sbindir=/usr/local/sbin" "sharedstatedir=/usr/local/com" "sysconfdir=/usr/local/etc" "tooldir=/usr/local/x86_64-apple-darwin21.4.0" "build_tooldir=/usr/local/x86_64-apple-darwin21.4.0" "target_alias=x86_64-apple-darwin21.4.0" "AWK=awk" "BISON=bison" "CC_FOR_BUILD=gcc" "CFLAGS_FOR_BUILD=-g -O2" "CXX_FOR_BUILD=g++" "EXPECT=expect" "FLEX=flex" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS_FOR_BUILD=" "LEX=flex" "M4=gm4" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "RUNTEST=runtest" "RUNTESTFLAGS=" "SED=/usr/bin/sed" "SHELL=/bin/sh" "YACC=bison -y" "`echo 'ADAFLAGS=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "ADA_CFLAGS=" "AR_FLAGS=rc" "`echo 'BOOT_ADAFLAGS=-gnatpg' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "BOOT_CFLAGS=-g -O2 " "BOOT_LDFLAGS=" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCXXFLAGS=-g -O2   -fno-implicit-templates" "STAGE1_CHECKING=--enable-checking=yes,types" "STAGE1_LANGUAGES=,c," "GNATBIND=no" "GNATMAKE=no" "GDC=@GDC@" "GDCFLAGS=-g -O2  " "AR_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ar" "AS_FOR_TARGET=as" "CC_FOR_TARGET=gcc" "CFLAGS_FOR_TARGET=-g -O2" "CPPFLAGS_FOR_TARGET=" "CXXFLAGS_FOR_TARGET=-g -O2" "DLLTOOL_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/dlltool" "DSYMUTIL_FOR_TARGET=@DSYMUTIL_FOR_TARGET@" "FLAGS_FOR_TARGET=" "GFORTRAN_FOR_TARGET=" "GOC_FOR_TARGET=" "GOCFLAGS_FOR_TARGET=-O2 -g" "GDC_FOR_TARGET=@GDC_FOR_TARGET@" "GDCFLAGS_FOR_TARGET=-O2 -g" "LD_FOR_TARGET=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "LIPO_FOR_TARGET=lipo" "LDFLAGS_FOR_TARGET=" "LIBCFLAGS_FOR_TARGET=-g -O2" "LIBCXXFLAGS_FOR_TARGET=-g -O2 -fno-implicit-templates" "NM_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/nm-new" "OBJDUMP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objdump" "OBJCOPY_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/objcopy" "RANLIB_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/ranlib" "READELF_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/readelf" "STRIP_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/strip-new" "WINDRES_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windres" "WINDMC_FOR_TARGET=/Users/hack/binutils-2.38/./binutils/windmc" "BUILD_CONFIG=" "`echo 'LANGUAGES=' | sed -e s'/[^=][^=]*=$/XFOO=/'`" "LEAN=false" "STAGE1_CFLAGS=-g " "STAGE1_CXXFLAGS=-g -O2  " "STAGE1_GENERATOR_CFLAGS=" "STAGE1_TFLAGS=-fno-checking" "STAGE2_CFLAGS=-g -O2  -fno-checking " "STAGE2_CXXFLAGS=-g -O2  " "STAGE2_GENERATOR_CFLAGS=" "STAGE2_TFLAGS=-fno-checking" "STAGE3_CFLAGS=-g -O2  -fchecking=1 " "STAGE3_CXXFLAGS=-g -O2  " "STAGE3_GENERATOR_CFLAGS=" "STAGE3_TFLAGS=-fchecking=1" "STAGE4_CFLAGS=-g -O2  " "STAGE4_CXXFLAGS=-g -O2  " "STAGE4_GENERATOR_CFLAGS=" "STAGE4_TFLAGS=" "STAGEprofile_CFLAGS=-g -O2  -fno-checking  -fprofile-generate" "STAGEprofile_CXXFLAGS=-g -O2  " "STAGEprofile_GENERATOR_CFLAGS=" "STAGEprofile_TFLAGS=-fno-checking" "STAGEtrain_CFLAGS=-g -O2  " "STAGEtrain_CXXFLAGS=-g -O2  " "STAGEtrain_GENERATOR_CFLAGS=" "STAGEtrain_TFLAGS=" "STAGEfeedback_CFLAGS=-g -O2   -fprofile-use -fprofile-reproducible=parallel-runs" "STAGEfeedback_CXXFLAGS=-g -O2  " "STAGEfeedback_GENERATOR_CFLAGS=" "STAGEfeedback_TFLAGS=" "STAGEautoprofile_CFLAGS=-g -O2  -fno-checking  -g" "STAGEautoprofile_CXXFLAGS=-g -O2  " "STAGEautoprofile_GENERATOR_CFLAGS=" "STAGEautoprofile_TFLAGS=-fno-checking" "STAGEautofeedback_CFLAGS=-g -O2  -fchecking=1 " "STAGEautofeedback_CXXFLAGS=-g -O2  " "STAGEautofeedback_GENERATOR_CFLAGS=" "STAGEautofeedback_TFLAGS=-fchecking=1" "CXX_FOR_TARGET=g++" "TFLAGS=" "CONFIG_SHELL=/bin/sh" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000"  'AR=ar ' 'AS=as' 'CC=gcc' 'CXX=g++' 'DLLTOOL=dlltool' 'DSYMUTIL=@DSYMUTIL@' 'GFORTRAN=' 'GOC=' 'GDC=@GDC@' 'LD=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld' 'LIPO=lipo' 'NM=nm' 'OBJDUMP=objdump' 'OTOOL=@OTOOL@' 'RANLIB=ranlib ' 'READELF=readelf' 'STRIP=strip' 'WINDRES=windres' 'WINDMC=windmc' 'CREATE_GCOV=create_gcov' LDFLAGS="${LDFLAGS}" HOST_LIBS="${HOST_LIBS}"  \
+		all)
+ 
+make[2]: Entering directory `/Users/hack/binutils-2.38/etc'
+ 
+ cd . && /bin/sh /Users/hack/binutils-2.38/missing automake-1.15 --foreign Makefile
+ 
+/Users/hack/binutils-2.38/missing: line 81: automake-1.15: command not found
+
+WARNING: 'automake-1.15' is missing on your system.
+         You should only need it if you modified 'Makefile.am' or
+         'configure.ac' or m4 files included by 'configure.ac'.
+         The 'automake' program is part of the GNU Automake package:
+         <http://www.gnu.org/software/automake>
+         It also requires GNU Autoconf, GNU m4 and Perl in order to run:
+         <http://www.gnu.org/software/autoconf>
+         <http://www.gnu.org/software/m4/>
+         <http://www.perl.org/>
+
+make[2]: *** [Makefile.in] Error 127
+
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /Users/hack/binutils-2.38/missing autoconf
+ 
+autoconf: error: no input file
+
+make[2]: *** [configure] Error 1
+
+make[2]: Failed to remake makefile `Makefile'.
+
+make[2]: Leaving directory `/Users/hack/binutils-2.38/etc'
+ 
+make[1]: *** [all-etc] Error 2
+
+make[1]: Nothing to be done for `all-target'.
+make[1]: Leaving directory `/Users/hack/binutils-2.38'
+ 
+make: *** [all] Error 2
+
+make: Leaving directory `/Users/hack/binutils-2.38'
+ 
